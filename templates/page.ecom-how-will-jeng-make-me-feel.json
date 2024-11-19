@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-how-will-jeng-make-me-feel-page": {
+      "type": "ecom-how-will-jeng-make-me-feel-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-how-will-jeng-make-me-feel-page"
+  ]
+}

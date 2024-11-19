@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-collections-collection": {
+      "type": "ecom-collections-collection",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-collections-collection"
+  ]
+}

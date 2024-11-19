@@ -1,0 +1,70 @@
+.stx-button--primary, .stx-button--primary:focus, .stx-button--primary:hover {
+    background-color: #45637c !important;
+    color: #fff;
+  padding: 15px 25px !important;
+  border-radius:20px !important;
+  border:none !important:
+}
+
+.stx-button {
+
+    font-size: 18px !important;
+  font-family: 'gotham-light' !important;
+  border: none !important;
+
+}
+
+.stx-button--focus, .stx-button:focus, .stx-button:hover {
+    box-shadow:none !important;
+    text-decoration: none !important;
+    z-index: 0 !important;
+}
+
+.stx-button--primary{
+background-color: #45637c !important;
+    color: #fff !important;
+  padding: 15px 25px !important;
+}
+
+.stx-button--large {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    padding: 15px 25px !important;
+}
+
+.bsub__PasswordlessLoginForm-module__header {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 1rem;
+  font-family:'Gotham-Bold' !important;
+}
+.bsub__PasswordlessLoginForm-module__description, .bsub__PasswordlessLoginForm-module__email-input label, .bsub__PasswordlessLoginForm-module__secured {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  font-family: 'gotham-light' !important;
+}
+
+.stx-input {
+    font-size: 16px !important;
+    font-family: 'gotham-light' !important;
+}
+
+.stx-input__input-element {
+  font-size: 16px !important;
+    font-family: 'gotham-light' !important;
+  
+}
+
+#bsub-admin-root .details-section>p, #customer-portal-root .details-section>p, .bold-subscriptions-customer-portal .details-section>p {
+    color: #000000 !important;
+    font-weight: 500;
+}
+#bsub-admin-root .customer-info__header-message, #customer-portal-root .customer-info__header-message, .bold-subscriptions-customer-portal .customer-info__header-message {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+#bsub-admin-root .edit-text-button, #customer-portal-root .edit-text-button, .bold-subscriptions-customer-portal .edit-text-button {
+  color: #000000 !important;
+}

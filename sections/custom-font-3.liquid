@@ -1,0 +1,41 @@
+{% if section.settings.enable_custom-font %}
+<style>
+@font-face {
+  font-family: 'Canela-Bold';
+  src: url('https://cdn.shopify.com/s/files/1/0517/2772/8804/files/canela-bold.woff') format('woff');
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a, span, ul, li, small, div{
+  font-family: 'Canela-Bold', sans-serif !important;
+} 
+  
+ 
+</style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Canela-Bold",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_custom-font",
+      "label": "Enable Custom Font Link",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "Canela-Bold",
+      "label": "Add Custom Font Link",
+      "info": "Upload font file in OpenType Font (.otf) format in Shopify files"
+    },
+    {
+      "type": "text",
+      "id": "name-font",
+      "label": "Custom Font Name"
+    }
+  ]
+}
+{% endschema %}
+

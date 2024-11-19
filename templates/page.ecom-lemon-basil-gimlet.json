@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-lemon-basil-gimlet-page": {
+      "type": "ecom-lemon-basil-gimlet-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-lemon-basil-gimlet-page"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-this-summers-most-chill-sparkling": {
+      "type": "ecom-this-summers-most-chill-sparkling-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-this-summers-most-chill-sparkling"
+  ]
+}

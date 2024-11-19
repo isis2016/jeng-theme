@@ -1,0 +1,46 @@
+{% if section.settings.enable_custom-font %}
+<style>
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('{{ section.settings.custom-font }}') format('opentype');
+}
+
+
+h2, h3, h4, h5, h6, p, a, span, ul, li, small, div{
+  font-family: 'Gotham-Bold', sans-serif !important;
+} 
+  
+ 
+</style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "gotham-bold",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_custom-font",
+      "label": "Enable Custom Font Link",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "gotham-bold",
+      "label": "Add Custom Font Link",
+      "info": "Upload font file in OpenType Font (.otf) format in Shopify files"
+    },
+    {
+      "type": "text",
+      "id": "name-font",
+      "label": "Custom Font Name"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-jeng-product-page-product": {
+      "type": "ecom-jeng-product-page-product",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-jeng-product-page-product"
+  ]
+}

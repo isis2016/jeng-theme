@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-interior-blog-article": {
+      "type": "ecom-interior-blog-article",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-interior-blog-article"
+  ]
+}

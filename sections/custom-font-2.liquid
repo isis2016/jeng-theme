@@ -1,0 +1,43 @@
+{% if section.settings.enable_custom-font %}
+<style>
+@font-face {
+  font-family: 'GothamLight';
+  src: url('GothamLight.ttf') format('truetype');
+}
+
+
+body{
+  font-family: 'GothamLight', sans-serif !important;
+} 
+  
+ 
+</style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "gothamlight",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_custom-font",
+      "label": "Enable Custom Font Link",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "gothamlight",
+      "label": "Add Custom Font Link",
+      "info": "Upload font file in OpenType Font (.otf) format in Shopify files"
+    },
+    {
+      "type": "text",
+      "id": "name-font",
+      "label": "Custom Font Name"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}

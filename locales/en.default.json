@@ -1,0 +1,1019 @@
+{
+  "general": {
+    "password_page": {
+      "login_form_heading": "Enter store using password:",
+      "login_password_button": "Enter using password",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_error": "Wrong password!",
+      "login_form_submit": "Enter",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
+      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Share on Facebook",
+        "share_on_twitter": "Tweet on Twitter",
+        "share_on_pinterest": "Pin on Pinterest"
+      },
+      "links": {
+        "twitter": "Twitter",
+        "facebook": "Facebook",
+        "pinterest": "Pinterest",
+        "instagram": "Instagram",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
+      }
+    },
+    "continue_shopping": "Continue shopping",
+    "pagination": {
+      "label": "Pagination",
+      "page": "Page {{ number }}",
+      "next": "Next page",
+      "previous": "Previous page"
+    },
+    "search": {
+      "search": "Search",
+      "reset": "Clear search term"
+    },
+    "cart": {
+      "view": "View cart ({{ count }})",
+      "view_empty_cart": "View cart",
+      "item_added": "Item added to your cart"
+    },
+    "share": {
+      "close": "Close share",
+      "copy_to_clipboard": "Copy link",
+      "share_url": "Link",
+      "success_message": "Link copied to clipboard"
+    },
+    "slider": {
+      "of": "of",
+      "next_slide": "Slide right",
+      "previous_slide": "Slide left",
+      "name": "Slider"
+    }
+  },
+  "newsletter": {
+    "label": "Email",
+    "success": "Thanks for subscribing",
+    "button_label": "Subscribe"
+  },
+  "accessibility": {
+    "skip_to_text": "Skip to content",
+    "skip_to_product_info": "Skip to product information",
+    "close": "Close",
+    "unit_price_separator": "per",
+    "vendor": "Vendor:",
+    "error": "Error",
+    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "link_messages": {
+      "new_window": "Opens in a new window.",
+      "external": "Opens external website."
+    },
+    "loading": "Loading...",
+    "total_reviews": "total reviews",
+    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
+    "collapsible_content_title": "Collapsible content",
+    "complementary_products": "Complementary products"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blog",
+      "read_more_title": "Read more: {{ title }}",
+      "comments": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      },
+      "moderated": "Please note, comments need to be approved before they are published.",
+      "comment_form_title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Comment",
+      "post": "Post comment",
+      "back_to_blog": "Back to blog",
+      "share": "Share this article",
+      "success": "Your comment was posted successfully! Thank you!",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated."
+    }
+  },
+  "onboarding": {
+    "product_title": "Example product title",
+    "collection_title": "Your collection's name"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Add to cart",
+      "choose_options": "Choose options",
+      "choose_product_options": "Choose options for {{ product_name }}",
+      "description": "Description",
+      "inventory_in_stock": "In stock",
+      "inventory_in_stock_show_count": "{{ quantity }} in stock",
+      "inventory_low_stock": "Low stock",
+      "inventory_low_stock_show_count": "Low stock: {{ quantity }} left",
+      "inventory_out_of_stock": "Out of stock",
+      "inventory_out_of_stock_continue_selling": "In stock",
+      "sku": "SKU",
+      "on_sale": "Sale",
+      "product_variants": "Product variants",
+      "media": {
+        "gallery_viewer": "Gallery Viewer",
+        "load_image": "Load image {{ index }} in gallery view",
+        "load_model": "Load 3D Model {{ index }} in gallery view",
+        "load_video": "Play video {{ index }} in gallery view",
+        "image_available": "Image {{ index }} is now available in gallery view",
+        "open_media": "Open media {{ index }} in modal",
+        "play_model": "Play 3D Viewer",
+        "play_video": "Play video"
+      },
+      "quantity": {
+        "label": "Quantity",
+        "input_label": "Quantity for {{ product }}",
+        "increase": "Increase quantity for {{ product }}",
+        "decrease": "Decrease quantity for {{ product }}",
+        "minimum_of": "Minimum of {{ quantity }}",
+        "maximum_of": "Maximum of {{ quantity }}",
+        "multiples_of": "Increments of {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> in cart"
+      },
+      "pickup_availability": {
+        "view_store_info": "View store information",
+        "check_other_stores": "Check availability at other stores",
+        "pick_up_available": "Pickup available",
+        "pick_up_available_at_html": "Pickup available at <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Couldn't load pickup availability",
+        "refresh": "Refresh"
+      },
+      "price": {
+        "from_price_html": "From {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price",
+        "unit_price": "Unit price"
+      },
+      "share": "Share this product",
+      "sold_out": "Sold out",
+      "unavailable": "Unavailable",
+      "vendor": "Vendor",
+      "value_unavailable": "{{ option_value }} - Unavailable",
+      "variant_sold_out_or_unavailable": "Variant sold out or unavailable",
+      "video_exit_message": "{{ title }} opens full screen video in same window.",
+      "view_full_details": "View full details",
+      "xr_button": "View in your space",
+      "xr_button_label": "View in your space, loads item in augmented reality window",
+      "include_taxes": "Tax included.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
+    },
+    "modal": {
+      "label": "Media gallery"
+    },
+    "facets": {
+      "apply": "Apply",
+      "clear": "Clear",
+      "clear_all": "Remove all",
+      "from": "From",
+      "filter_and_sort": "Filter and sort",
+      "filter_by_label": "Filter:",
+      "filter_button": "Filter",
+      "filters_selected": {
+        "one": "{{ count }} selected",
+        "other": "{{ count }} selected"
+      },
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filters selected)",
+      "show_more": "Show more",
+      "show_less": "Show less",
+      "max_price": "The highest price is {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} of {{ count }} product",
+        "other": "{{ product_count }} of {{ count }} products"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      },
+      "reset": "Reset",
+      "sort_button": "Sort",
+      "sort_by_label": "Sort by:",
+      "to": "To",
+      "clear_filter": "Remove filter"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
+      "page": "Page",
+      "products": "Products",
+      "results_pages_with_count": {
+        "one": "{{ count }} page",
+        "other": "{{ count }} pages"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} suggestion",
+        "other": "{{ count }} suggestions"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      },
+      "results_with_count": {
+        "one": "{{ count }} result",
+        "other": "{{ count }} results"
+      },
+      "results_with_count_and_term": {
+        "one": "{{ count }} result found for “{{ terms }}”",
+        "other": "{{ count }} results found for “{{ terms }}”"
+      },
+      "title": "Search results",
+      "search_for": "Search for “{{ terms }}”",
+      "suggestions": "Suggestions",
+      "pages": "Pages"
+    },
+    "cart": {
+      "cart": "Cart"
+    },
+    "contact": {
+      "form": {
+        "title": "Contact form",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone number",
+        "comment": "Comment",
+        "send": "Send",
+        "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+        "error_heading": "Please adjust the following:"
+      }
+    },
+    "404": {
+      "title": "Page not found",
+      "subtext": "404"
+    }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Announcement",
+      "menu": "Menu",
+      "cart_count": {
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      }
+    },
+    "cart": {
+      "title": "Your cart",
+      "caption": "Cart items",
+      "remove_title": "Remove {{ title }}",
+      "subtotal": "Subtotal",
+      "new_subtotal": "New subtotal",
+      "note": "Is this a gift? Add a special note for the recipient here",
+      "checkout": "Check out",
+      "empty": "Your cart is empty",
+      "cart_error": "There was an error while updating your cart. Please try again.",
+      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "headings": {
+        "product": "Product",
+        "price": "Price",
+        "total": "Total",
+        "quantity": "Quantity",
+        "image": "Product image"
+      },
+      "update": "Update",
+      "login": {
+        "title": "Have an account?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> to check out faster."
+      }
+    },
+    "footer": {
+      "payment": "Payment methods"
+    },
+    "featured_blog": {
+      "view_all": "View all",
+      "onboarding_title": "Blog post",
+      "onboarding_content": "Give your customers a summary of your blog post"
+    },
+    "featured_collection": {
+      "view_all": "View all",
+      "view_all_label": "View all products in the {{ collection_name }} collection"
+    },
+    "collection_list": {
+      "view_all": "View all"
+    },
+    "collection_template": {
+      "empty": "No products found",
+      "title": "Collection",
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all<\/a>"
+    },
+    "video": {
+      "load_video": "Load video: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Load slide",
+      "previous_slideshow": "Previous slide",
+      "next_slideshow": "Next slide",
+      "pause_slideshow": "Pause slideshow",
+      "play_slideshow": "Play slideshow",
+      "carousel": "Carousel",
+      "slide": "Slide"
+    },
+    "page": {
+      "title": "Page title"
+    },
+    "ecom-blank-template-home": {
+      "headingtext_2rdd9ykaz2d_html": "Summer Served Chilled",
+      "buttoncontent_s44c8bdfblc_html": "Shop now",
+      "headingtext_22qauzl88m3_html": "Alcohol<div>Free<\/div>",
+      "headingtext_1aezp0c1rbx_html": "No&nbsp;<div>Preservatives<\/div>",
+      "headingtext_m2h22mxmswk_html": "All Natural<div>Ingredients<\/div>",
+      "headingtext_3wvn9ry4my_html": "Vegan Plant<div>Based<\/div>",
+      "headingtext_wazylfa4g9_html": "Quality<div>Control<\/div>",
+      "headingtext_kfzfvi71gae_html": "Gluten<div>Free<\/div>",
+      "headingtext_b4kuu82n4r_html": "Alcohol<div>Free<\/div>",
+      "headingtext_dsukk6g9mus_html": "No&nbsp;<div>Preservatives<\/div>",
+      "headingtext_1c8wjygzazi_html": "All Natural<div>Ingredients<\/div>",
+      "headingtext_pot5abyuubk_html": "Vegan&nbsp;<div>Plant Based<\/div>",
+      "headingtext_qc5g55jdwqb_html": "Quality<div>Tested<\/div>",
+      "headingtext_h02nyzjjgm_html": "Gluten<div>Free<\/div>",
+      "textcontent_wqssw8xfup_html": "“As far as canned mocktails go, \nJeng is EASILY the best...\nIf you love sweet, \nfruity cocktails as much as me, \nthese will 1,000% be your new favorites.”",
+      "textcontent_edgj0v7udtp_html": "“This ginger-lime CBD sparkler \nuses a hint of juniper \nto mimic the flavors of a \ntraditional Moscow Mule, \nand it’s delicious straight.”",
+      "textcontent_s4eqn8c3gae_html": "“This sparkling cocktail \nhas 11 milligrams broad-spectrum hemp\nextract per 12-ounce can, \nbut it won't get you high or cause any impairment!\"",
+      "headingtext_ts9rt7zjye_html": "<div>This Summer’s Most Chill&nbsp;<\/div><div>Sparkling Cocktails.&nbsp;<\/div>",
+      "textcontent_3yohu6xp1p5_html": "<div>Looking for a refreshing and elevated summer drink?&nbsp;<\/div><div>Try a sparkling THC cocktail!&nbsp;<\/div>",
+      "buttoncontent_1gwl122fmoq_html": "LEARN MORE",
+      "headingtext_rvvpud6jfxl_html": "<div>Try All Of&nbsp; Our&nbsp;<\/div><div>All-Natural Flavors.<\/div>",
+      "textcontent_84ypro3t0yt_html": "<div>Indulge in a sensory experience like&nbsp;<span style=\"letter-spacing: 0.06rem;\">no other \nwith our exquisite collection&nbsp;<\/span><span style=\"letter-spacing: 0.06rem;\">of fresh juices.<\/span><\/div>",
+      "buttoncontent_hmugi4qt0ru_html": "LEARN MORE",
+      "headingtext_3ny3odwohyk_html": "<div>Our New Mix&nbsp;<\/div><div>On The&nbsp; Classic Cocktail.<\/div>",
+      "textcontent_00blm8l5x2oit_html": "<div>Introducing the perfect blend of tradition and innovation - \nour new mixed drinks that puts a fresh spin on the classic cocktail! \n<\/div>",
+      "buttoncontent_cswdp4k29ki_html": "LEARN MORE",
+      "headingtext_2hsoiu4j4o9_html": "moscow mule",
+      "buttoncontent_q45pbi7jkrg_html": "SHOP NOW",
+      "textcontent_z13273xbvz_html": "Our flagship soft cocktail takes its \ninspiration from the classic Moscow Mule. \nGinger-forward with a sparkling burst of lime. \nMicrodosed for your sipping pleasure.\nLess than 1\/3 of the sugar of the average Moscow Mule.\n<div><br><\/div><div>3mg THC +  6mg CBD<\/div><div>broad spectrum hemp extract per can<\/div><div>4 cans per pack<\/div><div>12 ounces per can\n<\/div><div>&nbsp;0% alcohol\n<br><\/div>",
+      "headingtext_5yfuvxnvs87_html": "jeng &amp; tonic",
+      "buttoncontent_448icoieogk_html": "SHOP NOW",
+      "textcontent_tf6wnsv12fb_html": "<div>We've combined natural juniper and lime juice with just a touch of natural hemp extract to create our refreshing and unique jeng &amp; tonic. It's the classic cocktail reimagined.<\/div><div><br><\/div><div>3mg THC +  6mg CBD<\/div><div>broad spectrum hemp extract per can<\/div><div>4 cans per pack<\/div><div>12 ounces per can\n<\/div><div>&nbsp;0% alcohol\n<br><\/div>",
+      "headingtext_gor4zacpphl_html": "spicy bloody orange magarita",
+      "buttoncontent_s7bz8e9flte_html": "SHOP NOW",
+      "textcontent_s7q28r7rdfi_html": "<div>Have a sip of paradise in your backyard with our THC + CBD margarita.<\/div><div><br><\/div><div>3mg THC +  6mg CBD<\/div><div>broad spectrum hemp extract per can<\/div><div>4 cans per pack<\/div><div>12 ounces per can\n<\/div><div>&nbsp;0% alcohol\n<br><\/div>",
+      "headingtext_ucj2y1m2ug_html": "paloma",
+      "buttoncontent_g78z4o9z4m_html": "SHOP NOW",
+      "textcontent_98u06vtsla_html": "<div>Have a sip of paradise in your backyard with our THC + CBD margarita.<\/div><div><br><\/div><div>3mg THC +  6mg CBD<\/div><div>broad spectrum hemp extract per can<\/div><div>4 cans per pack<\/div><div>12 ounces per can\n<\/div><div>&nbsp;0% alcohol\n<br><\/div>",
+      "headingtext_log4me7fi5e_html": "Changing the way people drink",
+      "textcontent_yg1zopqvy1n_html": "<div>Born in Montauk, New York.&nbsp; Made in the USA. Jeng is changing the way people drink. Mixologist-inspired, Jeng provides all the great taste and good feelings of a classic cocktail, but without the alcohol. Microdosed with legal hemp derived THC and CBD for a controlled buzz. 0% Alcohol. 100% Delicious. It's the classic cocktail reimagined.<\/div><div><br><\/div><div>Join the movement.<\/div>",
+      "buttoncontent_cibyma340r8_html": "ABOUT JENG",
+      "headingtext_55p6if9xr6_html": "Our Rave Reviews",
+      "text0_tq1nemhfis_html": "“Jeng is the best tasting \rnon-alcoholic beverage \rI have ever had.\r  \rYou got it just right!”\r",
+      "name0_tq1nemhfis_html": "Carlie L.",
+      "text1_tq1nemhfis_html": "“If you are searching for an \ramazing non-alcoholic option, \rthis is the product you \rneed to try.  It actually does \rwhat it claims to do, \rand tastes delicious.  \r\rThe paloma and jeng &amp; tonic \rare my favorites!&nbsp; Thank you @sipjeng!\"",
+      "name1_tq1nemhfis_html": "Ashlynne C.",
+      "text2_tq1nemhfis_html": "\"Deliciously refreshing \rand YES, \rit's worth the hype!”",
+      "name2_tq1nemhfis_html": "Katrina S."
+    },
+    "ecom-646573160747dd920a07e2d6-footer": {
+      "textcontent_x6m6hcy5c3_html": "Terms of Service  | Shipping &amp; Returns | Privacy Policy | COA | FDA\n<div>©jeng 2023<\/div>",
+      "headingtext_s87v3z2sznj_html": "Explore",
+      "headingtext_p7uhbsrkqda_html": "Social",
+      "headingtext_owxjkkufpva_html": "Contact Us",
+      "textcontent_ennogy03zlt_html": "<a href=\"mailto:hello@sipjeng.com\">hello@sipjeng.com<\/a>",
+      "textcontent_r782401tboc_html": "Disclaimer\nThe statements made regarding these products \nhave not been evaluated by the Food and Drug \nAdministration. The efficacy of these products \nhas not been confirmed by FDA-approved \nresearch. These products are not intended to \ndiagnose, treat, cure or prevent any disease.\n",
+      "headingtext_2l8wzq8wox7_html": "Explore",
+      "headingtext_8up7wvkea4o_html": "Social",
+      "headingtext_o8by1wez63d_html": "Contact Us",
+      "textcontent_opgtsp1l3te_html": "<a href=\"mailto:hello@sipjeng.com\">hello@sipjeng.com<\/a>",
+      "textcontent_gt4zu7zqmqe_html": "Disclaimer\nThe statements made regarding these products \nhave not been evaluated by the Food and Drug \nAdministration. The efficacy of these products \nhas not been confirmed by FDA-approved \nresearch. These products are not intended to \ndiagnose, treat, cure or prevent any disease.\n",
+      "textcontent_30fxukc9avf_html": "Terms of Service  | Shipping &amp; Returns | Privacy Policy | COA | FDA\n<div>©jeng 2023<\/div>"
+    },
+    "ecom-jeng-product-page-product": {
+      "product_single_sale_text_eli3nfk4mal_html": " {price}% OFF",
+      "product_single_sold_text_eli3nfk4mal_html": "Sold out",
+      "view_more_text_53fgdpza7ru_html": "View more",
+      "view_less_text_53fgdpza7ru_html": "View less",
+      "selling_plan_title_p1k2q2btiz_html": "Purchase Options",
+      "one_time_text_p1k2q2btiz_html": "One-time purchase",
+      "subscription_text_p1k2q2btiz_html": "Subscribe & Save",
+      "frequency_header_p1k2q2btiz_html": "Frequency:   ",
+      "quanity_label_sqxgqjdlcs9_html": "Quantity",
+      "add_to_cart_ak4lt0x1s5m_html": "Add to cart",
+      "pre_order_ak4lt0x1s5m_html": "Pre Order",
+      "product_unavailable_ak4lt0x1s5m_html": "Unavailable",
+      "out_stock_ak4lt0x1s5m_html": "Out of stock",
+      "added_cart_text_ak4lt0x1s5m_html": "Added to cart",
+      "added_cart_message_ak4lt0x1s5m_html": "Added to cart"
+    },
+    "ecom-home-home": {
+      "headingtext_r6yjuq6suwe_html": "Classic Cocktails Reimagined",
+      "buttoncontent_c52sbr619fg_html": "SHOP THC",
+      "buttoncontent_o7hy4t912b_html": "SHOP CBD",
+      "headingtext_w5rzjmzgczi_html": "Alcohol<div>Free<\/div>",
+      "headingtext_xpjdfb3s5f_html": "Born In<div>Montauk<\/div>",
+      "headingtext_3fztc55wctf_html": "All Natural<div>Ingredients<\/div>",
+      "headingtext_3cvrlwn25rz_html": "Vegan Plant<div>Based<\/div>",
+      "headingtext_ok3nrdsx88_html": "Quality<div>Control<\/div>",
+      "headingtext_ri47b37y5va_html": "Gluten<div>Free<\/div>",
+      "headingtext_nejqe75x3x_html": "Alcohol<div>Free<\/div>",
+      "headingtext_dtd6xnhtmr_html": "Born In<div>Montauk<\/div>",
+      "headingtext_yfz2vlfzdq_html": "All Natural<div>Ingredients<\/div>",
+      "headingtext_w7dq572r619_html": "Vegan&nbsp;<div>Plant Based<\/div>",
+      "headingtext_b45j9lnlze4_html": "Quality<div>Tested<\/div>",
+      "headingtext_odkwduszuf_html": "Gluten<div>Free<\/div>",
+      "textcontent_7hv2auuq824_html": "“As far as canned mocktails go, \nJeng is EASILY the best...\nIf you love sweet, \nfruity cocktails as much as me, \nthese will 1,000% be your new favorites.”",
+      "textcontent_qbb4n3c152_html": "“This ginger-lime CBD sparkler \nuses a hint of juniper \nto mimic the flavors of a \ntraditional Moscow Mule, \nand it’s delicious straight.”",
+      "textcontent_v4p1475gbfb_html": "“This sparkling cocktail \nhas 11 milligrams broad-spectrum hemp\nextract per 12-ounce can, \nbut it won't get you high or cause any impairment!\"",
+      "headingtext_5yigvdbsal9_html": "<div><\/div>The Most Chill Cocktails <br> For Any Occasion.<div><\/div>",
+      "textcontent_sub3xk4z81_html": "<div>This hemp-infused drink is the perfect way to celebrate with friends. \n<span style=\"letter-spacing: 0.06rem;\"><\/span><\/div>",
+      "buttoncontent_odhiayqe539_html": "LEARN MORE",
+      "headingtext_ujmugekp9r_html": "<div>Try Our&nbsp;<\/div><div>All-Natural Flavors.<\/div>",
+      "textcontent_t51qfsbdyfm_html": "<div>Indulge in a sensory experience like&nbsp;<span style=\"letter-spacing: 0.06rem;\">no other \nwith our exquisite collection&nbsp;<\/span><span style=\"letter-spacing: 0.06rem;\">of fresh juices.<\/span><\/div>",
+      "buttoncontent_3394fbab0sr_html": "LEARN MORE",
+      "headingtext_aj8qbub3yyc_html": "<div>Our New Mix&nbsp;<\/div><div>On The Classic Cocktail.<\/div>",
+      "textcontent_mh9mezg8sf_html": "<div>The perfect blend of tradition and innovation - \nour new mixed drinks put a fresh spin on the classics.<\/div>",
+      "buttoncontent_tsmt3r53ppf_html": "LEARN MORE",
+      "headingtext_ofp0xe9qptn_html": "paloma",
+      "headingtext_xmfdmakevxj_html": "THC collection",
+      "buttoncontent_aqdljvq8nn_html": "SHOP NOW",
+      "textcontent_9v5g1qocxm6_html": "<div><\/div>With fresh pink grapefruit juice and a microdose of legal hemp-derived THC, it's the perfectly refreshing alcohol-free cocktail for grapefruit lovers, but without the hangover.  With a hint of rosemary and lime, you won't be able to resist this delicious twist on a Mexican classic.  Low in sugar.  Big on flavor.<div>\n<br><\/div>",
+      "headingtext_8b1wlvmtlkq_html": "rhubarb cucumber spritz",
+      "headingtext_6nrgjhe6opb_html": "THC collection",
+      "buttoncontent_6o38t6xcfw5_html": "SHOP NOW",
+      "textcontent_ixphlpc20ws_html": "<div><\/div>Made with fresh juices, this low-sugar THC-infused gem is a refreshing twist on the classic rhubarb spritz for those who love elevated cocktails, but without the hangover.  You'll love its strawberry rhubarb notes cooled by a touch of cucumber to beat the heat.  With a hint of legal hemp-derived THC and only 9 grams of sugar, it's this summer's guiltless delicacy.<div>\n<br><\/div>",
+      "headingtext_b4giini6i3f_html": "spicy blood orange margarita",
+      "headingtext_5o1zaorkznh_html": "THC collection",
+      "buttoncontent_t8n4a5f7c8_html": "SHOP NOW",
+      "textcontent_12gug267swp_html": "<div><\/div>Made with zesty blood orange juice, this low-sugar THC-infused classic is for those who share our passion for the spicy margarita experience, but without the hangover.  Add a kick of jalapeno with a hint of legal hemp-derived THC and it's the perfect balance of heat, flavor and bliss that's sure to be your summer favorite.<div>\n<br><\/div>",
+      "headingtext_j6w9yu3xe5n_html": "moscow mule",
+      "headingtext_6ueh2e5vr2w_html": "THC collection",
+      "buttoncontent_8gqbuyu5jdo_html": "SHOP NOW",
+      "textcontent_b6sfe9m1bx6_html": "<div><\/div>This ginger lover's dream is paired with legal hemp-derived THC so you can take the edge off while enjoying this classic without the hangover.  Ginger forward with a hint lime and a touch of juniper, this low-sugar, full-flavored spin on a classic is perfect for any occasion.<div>\n<br><\/div>",
+      "headingtext_wi3fdur5cba_html": "jeng &amp; tonic",
+      "headingtext_kjj1tuywla_html": "CBD collection",
+      "buttoncontent_u1nfdl1xcmc_html": "SHOP NOW",
+      "textcontent_ll03mpe3nkl_html": "<div><\/div>How do you make a gin &amp; tonic without the gin? We’ve combined natural juniper, lime and tonic with 11mg broad spectrum CBD to create the refreshingly  unique Jeng &amp; Tonic. Containing less than 1\/3 the sugar of the average gin &amp; tonic, it’s the classic cocktail reimagined. <div>\n<br><\/div>",
+      "headingtext_w8zcx082off_html": "paloma",
+      "headingtext_0upn49rxahoq_html": "CBD collection",
+      "buttoncontent_eua9lhdde1_html": "SHOP NOW",
+      "textcontent_29r6v6x06n4_html": "<div><\/div>Jeng has paired real pink grapefruit juice with rosemary and juniper, added agave and sea salt, then finished it with 11mg of broad spectrum CBD.<div>Less than 1\/3 the sugar of the average Paloma.&nbsp;The result is a fresh spin on the classic Paloma, with all the delicious flavors and good feelings of a craft cocktail, but without the hangover.&nbsp;<div>\n<br><\/div><\/div>",
+      "headingtext_zw2abd5l3xc_html": "moscow mule",
+      "headingtext_gptphchqgwp_html": "<div>CBD collection<\/div>",
+      "buttoncontent_5m2gq55spsp_html": "SHOP NOW",
+      "textcontent_x0or9k0y5me_html": "<div><\/div>This low-sugar, alt-cocktail takes its inspiration from the classic Moscow Mule. Ginger-forward with a burst of lime and just a hint of juniper, it’s a sparkling cocktail that can be enjoyed on the rocks or straight from the can. All the great taste and good feelings of a classic cocktail without the hangover.<div>\n<br><\/div>",
+      "headingtext_uesvxiti8j_html": "Changing the way people drink",
+      "textcontent_ee0cxdfhnug_html": "<div>Born in Montauk, New York.&nbsp; Made in the USA. Jeng is changing the way people drink. Mixologist-inspired, Jeng provides all the great taste and good feelings of a classic cocktail, but without the alcohol. Microdosed with legal hemp derived THC and CBD for a controlled buzz.&nbsp;<\/div><div><br><\/div><div>0% Alcohol. 100% Delicious.<br><\/div><div><br><\/div><div>Join the movement.<\/div><div><br><\/div>",
+      "buttoncontent_zv6glrjfzr_html": "ABOUT JENG",
+      "headingtext_ez0tlmtjd8_html": "Our Rave Reviews",
+      "text0_fs2qvd8yarw_html": "“Jeng is the best tasting \rnon-alcoholic beverage \rI have ever had.\r  \rYou got it just right!”\r",
+      "name0_fs2qvd8yarw_html": "Carlie L.",
+      "text1_fs2qvd8yarw_html": "“If you are searching for an \ramazing non-alcoholic option, \rthis is the product you \rneed to try.  It actually does \rwhat it claims to do, \rand tastes delicious.  \r\rThe paloma and jeng &amp; tonic \rare my favorites!&nbsp; Thank you @sipjeng!\"",
+      "name1_fs2qvd8yarw_html": "Ashlynne C.",
+      "text2_fs2qvd8yarw_html": "\"Deliciously refreshing \rand YES, \rit's worth the hype!”",
+      "name2_fs2qvd8yarw_html": "Katrina S."
+    },
+    "ecom-footer-footer": {
+      "textcontent_x6m6hcy5c3_html": "<a href=\"\/pages\/terms-conditions\">Terms of Service<\/a>&nbsp;| <a href=\"\/pages\/shipping-returns\">Shipping &amp; Returns<\/a> | <a href=\"\/pages\/privacy\">Privacy Policy<\/a> | <a href=\"\/pages\/coa\">COA<\/a> | <a href=\"\/pages\/fda\">FDA<\/a>\n<div>©jeng 2023<\/div>",
+      "headingtext_s87v3z2sznj_html": "Explore",
+      "headingtext_p7uhbsrkqda_html": "Social",
+      "headingtext_owxjkkufpva_html": "<a href=\"https:\/\/sipjeng.com\/pages\/contact-us\">Contact Us<\/a>",
+      "textcontent_r782401tboc_html": "Disclaimer\nThe statements made regarding these products \nhave not been evaluated by the Food and Drug \nAdministration. The efficacy of these products \nhas not been confirmed by FDA-approved \nresearch. These products are not intended to \ndiagnose, treat, cure or prevent any disease.\n",
+      "headingtext_8up7wvkea4o_html": "Social",
+      "headingtext_o8by1wez63d_html": "<a href=\"https:\/\/sipjeng.com\/pages\/contact-us\">Contact Us<\/a>",
+      "textcontent_gt4zu7zqmqe_html": "Disclaimer\nThe statements made regarding these products \nhave not been evaluated by the Food and Drug \nAdministration. The efficacy of these products \nhas not been confirmed by FDA-approved \nresearch. These products are not intended to \ndiagnose, treat, cure or prevent any disease.\n",
+      "textcontent_30fxukc9avf_html": "<a href=\"\/pages\/terms-conditions\">Terms of Service<\/a>&nbsp;| <a href=\"\/pages\/shipping-returns\">Shipping &amp; Returns<\/a> | <a href=\"\/pages\/privacy\">Privacy Policy<\/a>&nbsp;| <a href=\"\/pages\/coa\">COA<\/a> | <a href=\"\/pages\/fda\">FDA<\/a>\n<div>©jeng 2023<\/div>"
+    },
+    "ecom-untitled-list-collections": {
+      "prev_page_4i6kd5q6eqf_html": "Prev",
+      "next_page_4i6kd5q6eqf_html": "Next",
+      "headingtext_cnkmr8jfyu9_html": "Shop our sparkling cocktails<br>",
+      "textcontent_h24le7ykyou_html": "All of the delicious flavors of a craft cocktail with none of the alcohol. Our sparklers can be enjoyed chilled straight from the can or served over ice with the garnish of your choice.Each soft cocktail is infused with real juices and natural ingredients.&nbsp;<div><div>Relax with our new microdosed 3mg THC + 6mg CBD or with our 11mg CBD beverages. It’s the classic cocktail, reimagined.\n\n<\/div><\/div>"
+    },
+    "ecom-list-collection-list-collections": {
+      "prev_page_4i6kd5q6eqf_html": "Prev",
+      "next_page_4i6kd5q6eqf_html": "Next",
+      "headingtext_cnkmr8jfyu9_html": "Shop our sparkling cocktails<br>",
+      "textcontent_h24le7ykyou_html": "All of the delicious flavors of a craft cocktail with none of the alcohol. Our sparklers can be enjoyed chilled straight from the can or served over ice with the garnish of your choice.Each soft cocktail is infused with real juices and natural ingredients.&nbsp;<div><div>Relax with our new microdosed 3mg THC + 6mg CBD or with our 11mg CBD beverages. It’s the classic cocktail, reimagined.\n\n<\/div><\/div>"
+    },
+    "ecom-preview-page-page": {
+      "submit_title_7uqxdguk21u_html": "Subscribe",
+      "success_message_7uqxdguk21u_html": "Subscribed successfully!",
+      "error_title_7uqxdguk21u_html": "Opps!. An error has occurred",
+      "error_already_7uqxdguk21u_html": "Email have already subscribed!",
+      "product_option_swatch_p1lsev00nlf_html": "Color",
+      "add_to_cart_p1lsev00nlf_html": "ADD TO CART",
+      "product_unavailable_p1lsev00nlf_html": "Unavailable",
+      "product_soldout_p1lsev00nlf_html": "outstock",
+      "added_cart_text_p1lsev00nlf_html": "Added to cart",
+      "added_cart_message_p1lsev00nlf_html": "Added to cart",
+      "view_more_text_p1lsev00nlf_html": "View more",
+      "sold_text_p1lsev00nlf_html": "Sold",
+      "sale_text_p1lsev00nlf_html": "Sale",
+      "sale_badge_p1lsev00nlf_html": "-{{sale}}%",
+      "countdown_title_p1lsev00nlf_html": "Hurry up! The sale will end on",
+      "no_product_item_p1lsev00nlf_html": "There are no product yet!",
+      "product_option_swatch_6wj46vj4wv7_html": "Color",
+      "add_to_cart_6wj46vj4wv7_html": "ADD TO CART",
+      "product_unavailable_6wj46vj4wv7_html": "Unavailable",
+      "product_soldout_6wj46vj4wv7_html": "outstock",
+      "added_cart_text_6wj46vj4wv7_html": "Added to cart",
+      "added_cart_message_6wj46vj4wv7_html": "Added to cart",
+      "view_more_text_6wj46vj4wv7_html": "View more",
+      "sold_text_6wj46vj4wv7_html": "Sold",
+      "sale_text_6wj46vj4wv7_html": "Sale",
+      "sale_badge_6wj46vj4wv7_html": "-{{sale}}%",
+      "countdown_title_6wj46vj4wv7_html": "Hurry up! The sale will end on",
+      "no_product_item_6wj46vj4wv7_html": "There are no product yet!",
+      "product_option_swatch_b5u69eeq1nu_html": "Color",
+      "add_to_cart_b5u69eeq1nu_html": "ADD TO CART",
+      "product_unavailable_b5u69eeq1nu_html": "Unavailable",
+      "product_soldout_b5u69eeq1nu_html": "outstock",
+      "added_cart_text_b5u69eeq1nu_html": "Added to cart",
+      "added_cart_message_b5u69eeq1nu_html": "Added to cart",
+      "view_more_text_b5u69eeq1nu_html": "View more",
+      "sold_text_b5u69eeq1nu_html": "Sold",
+      "sale_text_b5u69eeq1nu_html": "Sale",
+      "sale_badge_b5u69eeq1nu_html": "-{{sale}}%",
+      "countdown_title_b5u69eeq1nu_html": "Hurry up! The sale will end on",
+      "no_product_item_b5u69eeq1nu_html": "There are no product yet!",
+      "headingtext_ye4h0l5fhba_html": "<b><\/b><b>JENG<\/b>",
+      "textcontent_w6pcnzbq63_html": "Our wall coverings are exquisite digital reproductions of our hand blocked designs, printed by Connecticut-based Twenty2 on the finest quality paper, using eco-conscious techniques in every step of the process.",
+      "buttoncontent_u3z5414xnxs_html": "EXPLORE NOW",
+      "textcontent_chss21rb42t_html": "Free shipping in usa",
+      "textcontent_u8pqwhh5fz_html": "Plus, two-day delivery on thousands of items.",
+      "textcontent_8j6r5vh4jgl_html": "Amazing value every day",
+      "textcontent_1544t9qc1s9_html": "Items you love at prices that fit your budget.",
+      "textcontent_n64xm58gc4q_html": "some of our favorite",
+      "text_week_b5u69eeq1nu_html": "[%-W] week%!W",
+      "text_day_b5u69eeq1nu_html": "[%-d] day%!D",
+      "text_hour_b5u69eeq1nu_html": "[%-H] hr%!H",
+      "text_minute_b5u69eeq1nu_html": "[%-M] min%!M",
+      "text_second_b5u69eeq1nu_html": "[%-S] sec%!S",
+      "sale_b5u69eeq1nu_html": "-{{sale}}%",
+      "buttoncontent_i9v2ih8nlv9_html": "VIEW MORE PRODUCTS",
+      "textcontent_dl3au96d2h6_html": "Patterns for<div>Inspired Living Since 1905<\/div>",
+      "textcontent_7fv0wwp4kec_html": "designer fabrics + wallpapers printed by hand in Los Angeles",
+      "buttoncontent_bd6nscz6n75_html": "EXPLORE & SHOP",
+      "textcontent_cisxwly98d8_html": "Shop by categories",
+      "textcontent_u6kcrgnib0h_html": "Wallpaper",
+      "textcontent_ct2g9vvev9c_html": "designer and printed by hand in Los Angeles",
+      "buttoncontent_0ki8gsvn7qw_html": "SHOP WALLPAPER",
+      "text_week_6wj46vj4wv7_html": "[%-W] week%!W",
+      "text_day_6wj46vj4wv7_html": "[%-d] day%!D",
+      "text_hour_6wj46vj4wv7_html": "[%-H] hr%!H",
+      "text_minute_6wj46vj4wv7_html": "[%-M] min%!M",
+      "text_second_6wj46vj4wv7_html": "[%-S] sec%!S",
+      "sale_6wj46vj4wv7_html": "-{{sale}}%",
+      "textcontent_n0xt0dafjv_html": "Rugs",
+      "textcontent_w6nfaicpgd_html": "Our chicest rug is one part disco, one part Vienna Secession, and one part martinis in a sunken living room.",
+      "buttoncontent_oa7w013s4da_html": "SHOP RUGS",
+      "text_week_p1lsev00nlf_html": "[%-W] week%!W",
+      "text_day_p1lsev00nlf_html": "[%-d] day%!D",
+      "text_hour_p1lsev00nlf_html": "[%-H] hr%!H",
+      "text_minute_p1lsev00nlf_html": "[%-M] min%!M",
+      "text_second_p1lsev00nlf_html": "[%-S] sec%!S",
+      "sale_p1lsev00nlf_html": "-{{sale}}%",
+      "textcontent_s28wqtey8i_html": "Fabric",
+      "textcontent_iquedkcltxi_html": "Our most iconic print in a perfect off-white base with black",
+      "buttoncontent_dupv8lsxji8_html": "SHOP FABRIC",
+      "textcontent_s1vq8o8ameb_html": "Table Linens",
+      "textcontent_4wkqtdsg7y8_html": "We love this calming seaglass palette paired with white china",
+      "buttoncontent_ytfxkmu06yq_html": "SHOP TABLE LINENS",
+      "textcontent_h75y8mea29_html": "PIllows",
+      "textcontent_f5cbychwqfh_html": "International shipping now available without pillow insert",
+      "buttoncontent_n5ggpkj6c2m_html": "SHOP PILLOWS",
+      "textcontent_gremo6umv2q_html": "happy customers",
+      "text0_rcvylw7ruuk_html": "“Diam, sapien cras sed enim. Risus amet, sed elit interdum donec at elementum purus, vitae. Purus, a pellentesque non eu in. Adipiscing turpis adipiscing”",
+      "name0_rcvylw7ruuk_html": "Mr. David Dang",
+      "text1_rcvylw7ruuk_html": "“Diam, sapien cras sed enim. Risus amet, sed elit interdum donec at elementum purus, vitae. Purus, a pellentesque non eu in. Adipiscing turpis adipiscing”",
+      "name1_rcvylw7ruuk_html": "Mr. David Dang",
+      "text2_rcvylw7ruuk_html": "“Diam, sapien cras sed enim. Risus amet, sed elit interdum donec at elementum purus, vitae. Purus, a pellentesque non eu in. Adipiscing turpis adipiscing”",
+      "name2_rcvylw7ruuk_html": "Mr. David Dang",
+      "textcontent_4cvkpn409cp_html": "See what we're up to on Instagram!",
+      "textcontent_9p7hb9xiitf_html": "@EComposer",
+      "textcontent_ia3sp408obt_html": "For The Daily Updates",
+      "textcontent_uk1ph95nzr_html": "Our chicest rug is one part disco, one part Vienna Secession, and one part martinis in a sunken living room."
+    },
+    "ecom-find-us-here-page": {
+      "headingtext_cw4z27c22g9_html": "Find Us Here"
+    },
+    "ecom-this-summers-most-chill-sparkling-page": {
+      "headingtext_bhf86pa01rn_html": "This Summer’s Most Chill \nSparkling Cocktails. ",
+      "textcontent_dh4m4mioxgw_html": "Looking for a refreshing and elevated summer drink? Try a sparkling THC cocktail! This hemp-infused drink is the perfect way to beat the heat and elevate your mood. With its bubbly texture and delicious flavor, it's sure to become your new go-to summer cocktail.",
+      "buttoncontent_0edyqur2ich_html": "SHOP THC COCKTAILS"
+    },
+    "ecom-about-us-2-page": {
+      "headingtext_g8pr0o71vsm_html": "About Us",
+      "headingtext_6uemq6gg4u2_html": "Our Origins",
+      "textcontent_hg3x6rplsk9_html": "It was 2020 in Montauk, New York. A time to take stock in what's really important in life. We missed the after work happy hours, the spontaneous conversations at the neighborhood bar, the simple pleasure of buying a drink for someone to show your appreciation.&nbsp;<div>&nbsp;<\/div><div>Meanwhile, it seemed like every new product on the market was just another seltzer. Regardless of whether it had booze or hemp in it, they all tasted the same. And to be honest, they didn't taste that good.&nbsp;<\/div><div><br><\/div><div>Which brings us to Jeng.&nbsp;<\/div><div><br><\/div><div>In a time of undifferentiated seltzers and overwhelming beer and wine options, we wanted to create something completely different. Something complex that delights the senses. Something worth talking about.  Something worth sharing.&nbsp;<\/div><div><br><\/div><div><span style=\"letter-spacing: 0.06rem;\">Enjoy our twist on cocktail culture.<\/span><br><\/div>"
+    },
+    "ecom-wholesale-2-page": {
+      "headingtext_qe8kmb4b5p_html": "Wholesale&nbsp;",
+      "textcontent_u5b14bd37w_html": "Interested in selling Jeng alcohol-free sparkling cocktails at your restaurant, bar, hotel, or retail store?&nbsp;<div>Send us an email at <a href=\"mailto:hello@sipjeng.com\">hello@sipjeng.com<\/a> and we'll make it happen!&nbsp;<\/div>"
+    },
+    "ecom-untitled-collection": {
+      "product_option_swatch_5eoscl5n16o_html": "Color",
+      "sold_text_5eoscl5n16o_html": "Sold",
+      "sale_text_5eoscl5n16o_html": "Sale",
+      "sale_badge_5eoscl5n16o_html": "-{{sale}}%",
+      "countdown_title_5eoscl5n16o_html": "Hurry up! The sale will end on",
+      "no_product_item_5eoscl5n16o_html": "There are no product yet!",
+      "prev_page_5eoscl5n16o_html": "Previous",
+      "next_page_5eoscl5n16o_html": "Next",
+      "text_week_5eoscl5n16o_html": "[%-W] week%!W",
+      "text_day_5eoscl5n16o_html": "[%-d] day%!D",
+      "text_hour_5eoscl5n16o_html": "[%-H] hr%!H",
+      "text_minute_5eoscl5n16o_html": "[%-M] min%!M",
+      "text_second_5eoscl5n16o_html": "[%-S] sec%!S",
+      "sale_5eoscl5n16o_html": "-{{sale}}%"
+    },
+    "ecom-collections-collection": {
+      "product_option_swatch_5eoscl5n16o_html": "Color",
+      "view_more_text_5eoscl5n16o_html": "Select Quantity",
+      "sold_text_5eoscl5n16o_html": "Sold Out",
+      "sale_text_5eoscl5n16o_html": "Sale",
+      "sale_badge_5eoscl5n16o_html": "-{{sale}}%",
+      "countdown_title_5eoscl5n16o_html": "Hurry up! The sale will end on",
+      "no_product_item_5eoscl5n16o_html": "There are no product yet!",
+      "prev_page_5eoscl5n16o_html": "Previous",
+      "next_page_5eoscl5n16o_html": "Next",
+      "text_week_5eoscl5n16o_html": "[%-W] week%!W",
+      "text_day_5eoscl5n16o_html": "[%-d] day%!D",
+      "text_hour_5eoscl5n16o_html": "[%-H] hr%!H",
+      "text_minute_5eoscl5n16o_html": "[%-M] min%!M",
+      "text_second_5eoscl5n16o_html": "[%-S] sec%!S",
+      "sale_5eoscl5n16o_html": "-{{sale}}%"
+    },
+    "ecom-try-all-of-our-all-natural-flavors-page": {
+      "headingtext_08a5ibyy3ri_html": "Try Our All Natural Flavors\n ",
+      "textcontent_zzc2qzb953_html": "Indulge in the vibrant and refreshing taste of our all natural flavors, featuring the juicy tartness of grapefruit, the tangy sweetness of rhubarb, the bold citrus notes of blood orange, the spicy kick of ginger, and the piney freshness of juniper.",
+      "buttoncontent_oifmu7by2tk_html": "SHOP THC COCKTAILS"
+    },
+    "ecom-our-new-mix-on-the-classic-cocktail-page": {
+      "headingtext_nvndxtd479c_html": "Our New mix on the Classic Cocktail\n ",
+      "textcontent_xu2i4nzt9p_html": "Introducing the perfect blend of tradition and innovation - our new mixed drink that puts a fresh spin on the classic cocktail! Our expert mixologists have taken the classic cocktail and elevated it to a new level, using the finest ingredients and innovative techniques. Whether you're a seasoned cocktail connoisseur or a curious newcomer, our sparkling cocktails are sure to delight your taste buds. ",
+      "buttoncontent_ba2kpykhrfk_html": "SHOP THC COCKTAILS"
+    },
+    "ecom-about-us-page": "",
+    "ecom-wholesale-page": {
+      "headingtext_qe8kmb4b5p_html": "Wholesale&nbsp;"
+    },
+    "ecom-give-back-page": {
+      "headingtext_mksslqywtlj_html": "Giving Back",
+      "textcontent_ti4p08pu6w_html": "Jeng is committed to donating a portion of our profits to social and environmental causes.&nbsp;<div><br><\/div><div>We currently provide in-kind donations to the Illinois Environmental Council, which advances public policies that create healthy environments. We also provide in-kind donations to the Illinois Equal Justice Foundation's \"New Leaf Illinois\" program, which helps people clear their cannabis convictions.&nbsp;<\/div><div><br><\/div><div>Additionally, we support clean water and healthy beaches with in-kind and cash donations to <a href=\"https:\/\/www.surfrider.org\/\">The Surfrider Foundation<\/a>.&nbsp;<\/div><div><br><\/div><div>If you have any questions about our charitable operations (or know an organization that could use some support), feel free to contact us at <a href=\"mailto:hello@sipjeng.com\">hello@sipjeng.com<\/a>.<br><\/div><div><div><span style=\"letter-spacing: 0.06rem;\"><\/span><br><\/div><\/div>"
+    },
+    "ecom-standard-contact-page-page": {
+      "success_message_fr40g3f4v1d_html": "Thank you for sending your message!",
+      "error_title_fr40g3f4v1d_html": "Your message has failed to send. Please try again.",
+      "headingtext_tmg8t8gi61_html": "Let's talk CBD cocktails, alcohol-free drinks,&nbsp;<div>and all things sober curious<\/div>",
+      "textcontent_2zfuzuh68o3_html": "Good conversations start with alcohol-free hemp-infused cocktails. Follow us on Instagram and Facebook to share your #jengstories and hear more about ours.\nGot a question or just want to chat? We love talking about all things hemp-infused, alcohol-free, and sober curious. Send us an email using the form below.",
+      "NaN_label_fr40g3f4v1d_html": "Your comments",
+      "NaN_placeholder_fr40g3f4v1d_html": "Enter your comments",
+      "button_title_fr40g3f4v1d_html": "submit now"
+    },
+    "ecom-contact-us-page": {
+      "success_message_fr40g3f4v1d_html": "Thank you for sending your message!",
+      "error_title_fr40g3f4v1d_html": "Your message has failed to send. Please try again.",
+      "headingtext_tmg8t8gi61_html": "Let's talk CBD cocktails, alcohol-free drinks,&nbsp;<div>and all things sober curious<\/div>",
+      "textcontent_2zfuzuh68o3_html": "Good conversations start with alcohol-free hemp-infused cocktails. Follow us on Instagram and Facebook to share your #jengstories and hear more about ours.\nGot a question or just want to chat? We love talking about all things hemp-infused, alcohol-free, and sober curious. Send us an email using the form below.",
+      "NaN_label_fr40g3f4v1d_html": "Your comments",
+      "NaN_placeholder_fr40g3f4v1d_html": "Enter your comments",
+      "button_title_fr40g3f4v1d_html": "submit now"
+    },
+    "ecom-contact-page": {
+      "success_message_fr40g3f4v1d_html": "Thank you for sending your message!",
+      "error_title_fr40g3f4v1d_html": "Your message has failed to send. Please try again.",
+      "headingtext_tmg8t8gi61_html": "Let's talk CBD cocktails, alcohol-free drinks,&nbsp;<div>and all things sober curious<\/div>",
+      "textcontent_2zfuzuh68o3_html": "Good conversations start with alcohol-free hemp-infused cocktails. Follow us on Instagram and Facebook to share your #jengstories and hear more about ours.\nGot a question or just want to chat? We love talking about all things hemp-infused, alcohol-free, and sober curious. Send us an email using the form below.",
+      "NaN_label_fr40g3f4v1d_html": "Your comments",
+      "NaN_placeholder_fr40g3f4v1d_html": "Enter your comments",
+      "button_title_fr40g3f4v1d_html": "submit now"
+    },
+    "ecom-give-backcopy-page": {
+      "headingtext_mksslqywtlj_html": "COA",
+      "textcontent_ti4p08pu6w_html": "Jeng is committed to donating a portion of our profits to social and environmental causes.&nbsp;<div><br><\/div><div>We currently provide in-kind donations to the Illinois Environmental Council, which advances public policies that create healthy environments. We also provide in-kind donations to the Illinois Equal Justice Foundation's \"New Leaf Illinois\" program, which helps people clear their cannabis convictions.&nbsp;<\/div><div><br><\/div><div>Additionally, we support clean water and healthy beaches with in-kind and cash donations to <a href=\"https:\/\/www.surfrider.org\/\">The Surfrider Foundation<\/a>.&nbsp;<\/div><div><br><\/div><div>If you have any questions about our charitable operations (or know an organization that could use some support), feel free to contact us at <a href=\"mailto:hello@sipjeng.com\">hello@sipjeng.com<\/a>.<br><\/div><div><div><span style=\"letter-spacing: 0.06rem;\"><\/span><br><\/div><\/div>"
+    },
+    "ecom-coa-2-page": {
+      "headingtext_mksslqywtlj_html": "COA",
+      "headingtext_e383nso2xs8_html": "Alcohol<div>Free<\/div>"
+    },
+    "ecom-terms-of-service-2-page": {
+      "headingtext_mksslqywtlj_html": "Terms of Service",
+      "headingtext_e383nso2xs8_html": "<div><br><\/div>"
+    },
+    "ecom-terms-and-conditions-page": {
+      "headingtext_mksslqywtlj_html": "Terms of Service",
+      "headingtext_e383nso2xs8_html": "<div><br><\/div>"
+    },
+    "ecom-preview-blog-blog": {
+      "headingtext_i995nh7dor7_html": "Our Magazine",
+      "breadcrumbs_home_fo4492qjip_html": "Home",
+      "textcontent_xqdrr0pp5a_html": "Recent Posts",
+      "post_by_author_sepr66qgf8c_html": "{{article_author}}",
+      "post_published_at_sepr66qgf8c_html": "{{published_at}}",
+      "comment_count_text_sepr66qgf8c_html": "{{comment_count}} comment",
+      "comments_count_text_sepr66qgf8c_html": "{{comments_count}} comments",
+      "textcontent_vdpjmb4x52j_html": "Subscribe Us",
+      "textcontent_van2qw8s5i_html": "Subscribe to our newsletter and receive a selection of cool articles every weeks",
+      "submit_title_vmtv06z089_html": "Subscribe",
+      "success_message_vmtv06z089_html": "Subscribed successfully!",
+      "error_title_vmtv06z089_html": "Opps!. An error has occurred",
+      "error_already_vmtv06z089_html": "Email have already subscribed!"
+    },
+    "ecom-6499f0eac83dac6fe80b0672-blog": {
+      "post_by_author_sepr66qgf8c_html": "By {{article_author}}",
+      "post_published_at_sepr66qgf8c_html": "{{published_at}}",
+      "comment_count_text_sepr66qgf8c_html": "{{comment_count}} comment",
+      "comments_count_text_sepr66qgf8c_html": "{{comments_count}} comments",
+      "submit_title_vmtv06z089_html": "Subscribe",
+      "success_message_vmtv06z089_html": "Subscribed successfully!",
+      "error_title_vmtv06z089_html": "Opps!. An error has occurred",
+      "error_already_vmtv06z089_html": "Email have already subscribed!",
+      "headingtext_i995nh7dor7_html": "Press",
+      "textcontent_vdpjmb4x52j_html": "Subscribe to our newsletter!",
+      "textcontent_van2qw8s5i_html": "Subscribe to our newsletter and receive a selection of cool articles every week."
+    },
+    "ecom-preview-home-home": {
+      "headingtext_r6yjuq6suwe_html": "Classic Cocktails Reimagined",
+      "buttoncontent_c52sbr619fg_html": "SHOP THC",
+      "buttoncontent_o7hy4t912b_html": "SHOP CBD",
+      "headingtext_w5rzjmzgczi_html": "Alcohol<div>Free<\/div>",
+      "headingtext_xpjdfb3s5f_html": "Born In<div>Montauk<\/div>",
+      "headingtext_3fztc55wctf_html": "All Natural<div>Ingredients<\/div>",
+      "headingtext_3cvrlwn25rz_html": "Vegan Plant<div>Based<\/div>",
+      "headingtext_ok3nrdsx88_html": "Quality<div>Control<\/div>",
+      "headingtext_ri47b37y5va_html": "Gluten<div>Free<\/div>",
+      "headingtext_nejqe75x3x_html": "Alcohol<div>Free<\/div>",
+      "headingtext_dtd6xnhtmr_html": "Born In<div>Montauk<\/div>",
+      "headingtext_yfz2vlfzdq_html": "All Natural<div>Ingredients<\/div>",
+      "headingtext_w7dq572r619_html": "Vegan&nbsp;<div>Plant Based<\/div>",
+      "headingtext_b45j9lnlze4_html": "Quality<div>Tested<\/div>",
+      "headingtext_odkwduszuf_html": "Gluten<div>Free<\/div>",
+      "textcontent_7hv2auuq824_html": "“As far as canned mocktails go, \nJeng is EASILY the best...\nIf you love sweet, \nfruity cocktails as much as me, \nthese will 1,000% be your new favorites.”",
+      "textcontent_qbb4n3c152_html": "“This ginger-lime CBD sparkler \nuses a hint of juniper \nto mimic the flavors of a \ntraditional Moscow Mule, \nand it’s delicious straight.”",
+      "textcontent_v4p1475gbfb_html": "“This sparkling cocktail \nhas 11 milligrams broad-spectrum hemp\nextract per 12-ounce can, \nbut it won't get you high or cause any impairment!\"",
+      "headingtext_5yigvdbsal9_html": "<div>This Summer’s Most Chill&nbsp;<\/div><div>Sparkling Cocktails.&nbsp;<\/div>",
+      "textcontent_sub3xk4z81_html": "<div>Looking for a refreshing and elevated summer drink?&nbsp;<span style=\"letter-spacing: 0.06rem;\">Try a sparkling THC cocktail!&nbsp;<\/span><\/div>",
+      "buttoncontent_odhiayqe539_html": "LEARN MORE",
+      "headingtext_ujmugekp9r_html": "<div>Try Our&nbsp;<\/div><div>All-Natural Flavors.<\/div>",
+      "textcontent_t51qfsbdyfm_html": "<div>Indulge in a sensory experience like&nbsp;<span style=\"letter-spacing: 0.06rem;\">no other \nwith our exquisite collection&nbsp;<\/span><span style=\"letter-spacing: 0.06rem;\">of fresh juices.<\/span><\/div>",
+      "buttoncontent_3394fbab0sr_html": "LEARN MORE",
+      "headingtext_aj8qbub3yyc_html": "<div>Our New Mix&nbsp;<\/div><div>On The Classic Cocktail.<\/div>",
+      "textcontent_mh9mezg8sf_html": "<div>The perfect blend of tradition and innovation - \nour new mixed drinks put a fresh spin on the classics.<\/div>",
+      "buttoncontent_tsmt3r53ppf_html": "LEARN MORE",
+      "headingtext_ofp0xe9qptn_html": "paloma",
+      "headingtext_xmfdmakevxj_html": "THC collection",
+      "buttoncontent_aqdljvq8nn_html": "SHOP NOW",
+      "textcontent_9v5g1qocxm6_html": "<div><\/div>With fresh pink grapefruit juice and a microdose of legal hemp-derived THC, it's the perfectly refreshing alcohol-free cocktail for grapefruit lovers, but without the hangover.  With a hint of rosemary and lime, you won't be able to resist this delicious twist on a Mexican classic.  Low in sugar.  Big on flavor.<div>\n<br><\/div>",
+      "headingtext_8b1wlvmtlkq_html": "rhubarb cucumber spritz",
+      "headingtext_6nrgjhe6opb_html": "THC collection",
+      "buttoncontent_6o38t6xcfw5_html": "SHOP NOW",
+      "textcontent_ixphlpc20ws_html": "<div><\/div>Made with fresh juices, this low-sugar THC-infused gem is a refreshing twist on the classic rhubarb spritz for those who love elevated cocktails, but without the hangover.  You'll love its strawberry rhubarb notes cooled by a touch of cucumber to beat the heat.  With a hint of legal hemp-derived THC and only 9 grams of sugar, it's this summer's guiltless delicacy.<div>\n<br><\/div>",
+      "headingtext_b4giini6i3f_html": "spicy blood orange margarita",
+      "headingtext_5o1zaorkznh_html": "THC collection",
+      "buttoncontent_t8n4a5f7c8_html": "SHOP NOW",
+      "textcontent_12gug267swp_html": "<div><\/div>Made with zesty blood orange juice, this low-sugar THC-infused classic is for those who share our passion for the spicy margarita experience, but without the hangover.  Add a kick of jalapeno with a hint of legal hemp-derived THC and it's the perfect balance of heat, flavor and bliss that's sure to be your summer favorite.<div>\n<br><\/div>",
+      "headingtext_j6w9yu3xe5n_html": "moscow mule",
+      "headingtext_6ueh2e5vr2w_html": "THC collection",
+      "buttoncontent_8gqbuyu5jdo_html": "SHOP NOW",
+      "textcontent_b6sfe9m1bx6_html": "<div><\/div>This ginger lover's dream is paired with legal hemp-derived THC so you can take the edge off while enjoying this classic without the hangover.  Ginger forward with a hint lime and a touch of juniper, this low-sugar, full-flavored spin on a classic is perfect for any occasion.<div>\n<br><\/div>",
+      "headingtext_wi3fdur5cba_html": "jeng &amp; tonic",
+      "headingtext_kjj1tuywla_html": "CBD collection",
+      "buttoncontent_u1nfdl1xcmc_html": "SHOP NOW",
+      "textcontent_ll03mpe3nkl_html": "<div><\/div>How do you make a gin &amp; tonic without the gin? We’ve combined natural juniper, lime and tonic with 11mg broad spectrum CBD to create the refreshingly  unique Jeng &amp; Tonic. Containing less than 1\/3 the sugar of the average gin &amp; tonic, it’s the classic cocktail reimagined. <div>\n<br><\/div>",
+      "headingtext_w8zcx082off_html": "paloma",
+      "headingtext_0upn49rxahoq_html": "CBD collection",
+      "buttoncontent_eua9lhdde1_html": "SHOP NOW",
+      "textcontent_29r6v6x06n4_html": "<div><\/div>Jeng has paired real pink grapefruit juice with rosemary and juniper, added agave and sea salt, then finished it with 11mg of broad spectrum CBD.<div>Less than 1\/3 the sugar of the average Paloma.&nbsp;The result is a fresh spin on the classic Paloma, with all the delicious flavors and good feelings of a craft cocktail, but without the hangover.&nbsp;<div>\n<br><\/div><\/div>",
+      "headingtext_zw2abd5l3xc_html": "moscow mule",
+      "headingtext_gptphchqgwp_html": "<div>CBD collection<\/div>",
+      "buttoncontent_5m2gq55spsp_html": "SHOP NOW",
+      "textcontent_x0or9k0y5me_html": "<div><\/div>This low-sugar, alt-cocktail takes its inspiration from the classic Moscow Mule. Ginger-forward with a burst of lime and just a hint of juniper, it’s a sparkling cocktail that can be enjoyed on the rocks or straight from the can. All the great taste and good feelings of a classic cocktail without the hangover.<div>\n<br><\/div>",
+      "headingtext_uesvxiti8j_html": "Changing the way people drink",
+      "textcontent_ee0cxdfhnug_html": "<div>Born in Montauk, New York.&nbsp; Made in the USA. Jeng is changing the way people drink. Mixologist-inspired, Jeng provides all the great taste and good feelings of a classic cocktail, but without the alcohol. Microdosed with legal hemp derived THC and CBD for a controlled buzz.&nbsp;<\/div><div><br><\/div><div>0% Alcohol. 100% Delicious.<br><\/div><div><br><\/div><div>Join the movement.<\/div><div><br><\/div>",
+      "buttoncontent_zv6glrjfzr_html": "ABOUT JENG",
+      "headingtext_ez0tlmtjd8_html": "Our Rave Reviews",
+      "text0_fs2qvd8yarw_html": "“Jeng is the best tasting \rnon-alcoholic beverage \rI have ever had.\r  \rYou got it just right!”\r",
+      "name0_fs2qvd8yarw_html": "Carlie L.",
+      "text1_fs2qvd8yarw_html": "“If you are searching for an \ramazing non-alcoholic option, \rthis is the product you \rneed to try.  It actually does \rwhat it claims to do, \rand tastes delicious.  \r\rThe paloma and jeng &amp; tonic \rare my favorites!&nbsp; Thank you @sipjeng!\"",
+      "name1_fs2qvd8yarw_html": "Ashlynne C.",
+      "text2_fs2qvd8yarw_html": "\"Deliciously refreshing \rand YES, \rit's worth the hype!”",
+      "name2_fs2qvd8yarw_html": "Katrina S."
+    },
+    "ecom-preview-article-article": {
+      "headingtext_4sqtza9shjo_html": "Related Articles"
+    },
+    "ecom-interior-blog-article": {
+      "headingtext_4sqtza9shjo_html": "Related Articles"
+    },
+    "ecom-the-most-chill-cocktails-page": {
+      "headingtext_bhf86pa01rn_html": "<div>The Most Chill Cocktails <br>For Any Occasion.<br><\/div>",
+      "textcontent_dh4m4mioxgw_html": "Looking for a refreshing and elevated drink? \nTry our sparkling THC cocktails! This hemp-infused drink is the perfect way to celebrate with friends. \nWith its bubbly texture and delicious flavor, it's sure to become your new go-to alcohol-free cocktail.",
+      "buttoncontent_0edyqur2ich_html": "SHOP THC COCKTAILS"
+    },
+    "ecom-faqs-page": {
+      "headingtext_perewvleg5_html": "FAQs",
+      "item_title_0_uxvy51s89kk_html": "What is a hemp infused cocktail?",
+      "item_title_1_uxvy51s89kk_html": "What is Hemp?",
+      "item_title_2_uxvy51s89kk_html": "What is Delta 9 THC?",
+      "item_title_3_uxvy51s89kk_html": "What is CBD?",
+      "item_title_4_uxvy51s89kk_html": "Are Delta 9 THC and CBD legal?",
+      "item_title_5_uxvy51s89kk_html": "How will Jeng make me feel?",
+      "item_title_6_uxvy51s89kk_html": "Is there a limit to how many I can drink?",
+      "item_title_7_uxvy51s89kk_html": "How much THC is in one can of Jeng?",
+      "item_title_8_uxvy51s89kk_html": "How long does it take to take effect?",
+      "item_title_9_uxvy51s89kk_html": "Where can I buy Jeng?",
+      "item_title_10_uxvy51s89kk_html": "Do I need to refrigerate the cans?",
+      "item_title_11_uxvy51s89kk_html": "How old do I need to be to place an order?",
+      "item_title_12_uxvy51s89kk_html": "How long does delivery take?",
+      "item_title_13_uxvy51s89kk_html": "Is Jeng healthy?",
+      "item_title_14_uxvy51s89kk_html": "Is there caffeine in this?",
+      "item_title_15_uxvy51s89kk_html": "Where do you ship?",
+      "item_title_16_uxvy51s89kk_html": "What happens if your cans arrive damaged?",
+      "item_title_17_uxvy51s89kk_html": "Are you vegan, plant based, gluten free, kosher certified?",
+      "item_title_18_uxvy51s89kk_html": "Is your hemp quality tested?",
+      "item_title_19_uxvy51s89kk_html": "Do you use real fruit juice and all natural ingredients?",
+      "textcontent_esnlyb3tiel_html": "A hemp-infused cocktail by Jeng is a non-alcoholic sparkling beverage that skillfully blends the principles of classic mixology with the calming effects of organic Delta 9 THC, broad spectrum CBD, or both. The result is a balanced micro-high which provides you a unique experience without the aftermath of a hangover. ",
+      "textcontent_7yea440vykk_html": "The 2018 Farm Bill defines hemp as Cannabis sativa L. which contains no more than a 0.3 percent concentration of THC. ",
+      "textcontent_jjmkp900qqd_html": "Delta 9 refers to legal hemp-derived THC. As THC is the cannabinoid responsible for making people feel ‘high’, Delta 9 is the most abundant form of THC and was legalized under the 2018 Farm Bill. ",
+      "textcontent_77dmazt91li_html": "<div><span style=\"font-style: var(--font-body-style);\">CBD is derived from legal hemp which has been grown specifically for CBD.&nbsp; Unlike THC (another cannabinoid), CBD does not intoxicate or get a person “high.”&nbsp; Hemp derived CBD was legalized under the 2018 Farm Bill.&nbsp; Many consumers say that CBD helps them take the edge off.<\/span><br><\/div>",
+      "textcontent_jf9zxbpg1hs_html": "<div>Yes.&nbsp; Hemp-derived CBD and Delta 9 THC used in Jeng were legalized with the 2018 Farm Bill.<br><\/div>",
+      "textcontent_q72igh4zxqs_html": "Jeng transforms classic cocktails with a touch of THC, CBD, or both for a subtle buzz. Our zero-proof drinks mimic the vibe of a glass of wine or beer—light, buzzy, and sociable—minus the hangover or hangxiety. Cheers to a new kind of experience!\n",
+      "textcontent_eewjpnk2k5o_html": "Start with a single can and gauge your vibe. Individual effects vary based on personal tolerance. With an onset of about 5-10 minutes, take it slow and savor the experience as you sip!",
+      "textcontent_51f36xcbjp3_html": "Our THC based cans offer 3 mg of THC and 6mg CBD for that perfect balanced microdose.",
+      "textcontent_i1wniz8560i_html": "Typically, the onset occurs within 5-10 minutes, but it can take up to a half hour for some.",
+      "textcontent_n21w8skfe0d_html": "Jeng is offered in stores across the country which you can learn more about <a href=\"https:\/\/sipjeng.com\/pages\/find-us-here\" target=\"_blank\">here<\/a>. We also deliver across the country through online ordering.",
+      "textcontent_rnp7076yuak_html": "No need to refrigerate the cans, as they boast a shelf life of 12 months. For an optimal experience, though, we suggest serving them chilled. Elevate it further by pouring over ice into your preferred cocktail glass, and don't forget to add your favorite garnish!",
+      "textcontent_8uigi2y33z_html": "Consumers must be 21 or older to legally purchase our THC and CBD products.",
+      "textcontent_7vt1cowshup_html": "Delivery takes approximately 2-5 business days",
+      "textcontent_5p2hrkpjsnp_html": "We use natural ingredients to create drinks that taste great but are low in sugar.",
+      "textcontent_kq2j71kwuw_html": "Nope, sweet dreams. No energy drink jitters here.",
+      "textcontent_cphvvke3wy_html": "<div>All 50 states. We do not ship internationally at the moment.<\/div>",
+      "textcontent_9tz4nryje9n_html": "Fingers crossed for smooth deliveries, but accidents can happen. If your goodies don't arrive in tip-top shape, no worries. We've got a 30-day full refund policy. Inspect your order upon arrival, and if there are any hiccups, let us know ASAP.&nbsp;Learn more <a href=\"https:\/\/sipjeng.com\/pages\/shipping-returns\">here<\/a>.",
+      "textcontent_zy0h7qgz6wn_html": "Absolutely! We've got you covered on all fronts. Our hemp undergoes quality testing to ensure no animal parts, GMOs, and all products are gluten-free, palm oil-free, and kosher certified.",
+      "textcontent_y9v7x0iz0cc_html": "Yes! Our hemp extract is lab tested for solvents, heavy metals, fungicides, pesticides, and microbes. We use all FDA approved, top quality materials in our formula. No animal parts, no GMO, gluten-free, and palm oil free. Kosher certified.",
+      "textcontent_w4uehpxih8e_html": "<div>Absolutely! We keep it real with all-natural goodness. Our zesty bliss comes from real fruit juices without any artificial nonsense. Low in sugar, high on flavor!<\/div>"
+    },
+    "ecom-default-template-quickview": {
+      "textcontent_hej9vk0uggt_html": "(100+ rating)",
+      "product_single_sale_text_igi21p1nxm_html": "{price}% OFF",
+      "product_single_sold_text_igi21p1nxm_html": "Sold out",
+      "instock_text_phpd2kxein8_html": "26 items left in stock",
+      "outstock_text_phpd2kxein8_html": "Outstock",
+      "inventory_text_phpd2kxein8_html": "{quantity} items left in stock",
+      "preorder_text_phpd2kxein8_html": "Preorder text",
+      "product_option_swatch_mopm0qumv6_html": "Color",
+      "add_to_cart_boa4cnsk0z_html": "Add to cart",
+      "pre_order_boa4cnsk0z_html": "Pre Order",
+      "product_unavailable_boa4cnsk0z_html": "Unavailable",
+      "out_stock_boa4cnsk0z_html": "Out stock",
+      "added_cart_text_boa4cnsk0z_html": "Added to cart",
+      "added_cart_message_boa4cnsk0z_html": "Added to cart",
+      "headingtext_ke5l5ure39_html": "<b>Guarantee safe<\/b> <i>&amp; secure checkout<\/i>",
+      "headingtext_qx9733j8ss_html": "Share:"
+    }
+  },
+  "localization": {
+    "country_label": "Country\/region",
+    "language_label": "Language",
+    "update_language": "Update language",
+    "update_country": "Update country\/region"
+  },
+  "customer": {
+    "account": {
+      "title": "Account",
+      "details": "Account details",
+      "view_addresses": "View addresses",
+      "return": "Return to Account details"
+    },
+    "account_fallback": "Account",
+    "activate_account": {
+      "title": "Activate account",
+      "subtext": "Create your password to activate your account.",
+      "password": "Password",
+      "password_confirm": "Confirm password",
+      "submit": "Activate account",
+      "cancel": "Decline invitation"
+    },
+    "addresses": {
+      "title": "Addresses",
+      "default": "Default",
+      "add_new": "Add a new address",
+      "edit_address": "Edit address",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "company": "Company",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "country": "Country\/region",
+      "province": "Province",
+      "zip": "Postal\/ZIP code",
+      "phone": "Phone",
+      "set_default": "Set as default address",
+      "add": "Add address",
+      "update": "Update address",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "delete_confirm": "Are you sure you wish to delete this address?"
+    },
+    "log_in": "Log in",
+    "log_out": "Log out",
+    "login_page": {
+      "cancel": "Cancel",
+      "create_account": "Create account",
+      "email": "Email",
+      "forgot_password": "Forgot your password?",
+      "guest_continue": "Continue",
+      "guest_title": "Continue as a guest",
+      "password": "Password",
+      "title": "Login",
+      "sign_in": "Sign in",
+      "submit": "Submit"
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "date_html": "Placed on {{ date }}",
+      "cancelled_html": "Order Cancelled on {{ date }}",
+      "cancelled_reason": "Reason: {{ reason }}",
+      "billing_address": "Billing Address",
+      "payment_status": "Payment Status",
+      "shipping_address": "Shipping Address",
+      "fulfillment_status": "Fulfillment Status",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "product": "Product",
+      "sku": "SKU",
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "total_refunded": "Refunded",
+      "fulfilled_at_html": "Fulfilled {{ date }}",
+      "track_shipment": "Track shipment",
+      "tracking_url": "Tracking link",
+      "tracking_company": "Carrier",
+      "tracking_number": "Tracking number",
+      "subtotal": "Subtotal",
+      "total_duties": "Duties"
+    },
+    "orders": {
+      "title": "Order history",
+      "order_number": "Order",
+      "order_number_link": "Order number {{ number }}",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
+      "total": "Total",
+      "none": "You haven't placed any orders yet."
+    },
+    "recover_password": {
+      "title": "Reset your password",
+      "subtext": "We will send you an email to reset your password",
+      "success": "We've sent you an email with a link to update your password."
+    },
+    "register": {
+      "title": "Create account",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create"
+    },
+    "reset_password": {
+      "title": "Reset account password",
+      "subtext": "Enter a new password",
+      "password": "Password",
+      "password_confirm": "Confirm password",
+      "submit": "Reset password"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "Use the gift card code online or QR code in-store",
+      "title": "Here's your {{ value }} gift card balance for {{ shop }}!",
+      "subtext": "Your gift card",
+      "gift_card_code": "Gift card code",
+      "shop_link": "Visit online store",
+      "add_to_apple_wallet": "Add to Apple Wallet",
+      "qr_image_alt": "QR code — scan to redeem gift card",
+      "copy_code": "Copy gift card code",
+      "expiration_date": "Expires {{ expires_on }}",
+      "copy_code_success": "Code copied successfully",
+      "expired": "Expired"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "I want to send this as a gift",
+      "email_label": "Recipient email",
+      "email_label_optional": "Recipient email (optional)",
+      "email": "Email",
+      "name_label": "Recipient name (optional)",
+      "name": "Name",
+      "message_label": "Message (optional)",
+      "message": "Message",
+      "max_characters": "{{ max_chars }} characters max"
+    }
+  }
+}

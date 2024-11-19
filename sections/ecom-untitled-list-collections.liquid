@@ -1,0 +1,167 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.4" /><noscript><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.4" /></noscript>
+{%capture section_id %}ecom-untitled-list-collections{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}
+{{'ecom-646cd899aca99bfcab084d56.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-646cd899aca99bfcab084d56.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="646cd899aca99bfcab084d56";
+ window.EComposer.TEMPLATE = {"template_id":"646cd899aca99bfcab084d56","title":"Untitled","type":"list-collections","slug":"ecom-untitled","plan_id":3};
+ </script>
+<div class="ecom-builder" id="ecom-untitled"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-v6byimnwe4" data-id="ecom-v6byimnwe4" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-6tp3jih4yhu"><div class="core__column--wrapper"><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-cnkmr8jfyu9" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="1"><h3 class="ecom__heading">{{ 'sections.ecom-untitled-list-collections.headingtext_cnkmr8jfyu9_html' | t }}</h3></div></div><div class="ecom-block ecom-core core__block elmspace ecom-h24le7ykyou" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="1"><div class="text-content ecom-html has-drop-cap-view-default">{{ 'sections.ecom-untitled-list-collections.textcontent_h24le7ykyou_html' | t }}</div></div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div></section><section class="ecom-row ecom-core ecom-section ecom-0hd0p3tdcgqj" data-id="ecom-0hd0p3tdcgqj" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-a156sbp7mue"><div class="core__column--wrapper"><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-4i6kd5q6eqf" data-core-is="block"><div class="ecom-element ecom-shopify ecom-shopify__collection" deep="1"><div class="ecom-element ecom-shopify ecom-shopify__collection-wrapper"><div class="ecom-element ecom-shopify ecom-shopify__collection-container ecom-shopify__collection-layout-undefined">
+ {% capture limit%}12{%endcapture%}
+ {% assign limit = limit | plus: 0 %}
+ {% capture image_ratio%}adapt{% endcapture %}
+ {% capture description_length %}20{% endcapture %}
+ {% assign description_length = description_length | plus: 0 %}
+ 
+ {% capture limit%}12{%endcapture%}
+ {%- assign limit = limit | plus: 0 -%}
+ {%- paginate collections by limit -%}
+ <ul class="ecom-shopify__list-collections" role="list">
+ {%- for collection_item in collections -%}
+ 
+ {% assign collection_image = collection_item.image %}
+ {% unless collection_image %}
+ {% if collection_item.all_products_count > 0 %}
+ {% assign collection_image = collection_item.products.first.featured_image %}
+ {% endif %}
+ {% endunless %}
+ <li class="ecom-shopify__list-collections--item {% unless collection_image %}ecom-shopify__list-collections__empty{% endunless %} ">
+ <a href="{{ collection_item.url }}" class="ecom-shopify__collection-card{% if collection_image != blank %} ecom-shopify__collection-card--media{% else %}{% if image_ratio != 'adapt' %} ecom-card--stretch{% endif %}{% endif %}{% unless section.settings.image_padding %} ecom-card--light-border{% endunless %}"
+ >
+ <div class="ecom-shopify__collection-card ">
+ {%- if collection_image != blank -%}
+ <div class="ecom-shopify__list-collections-media-wrapper">
+ <div class="ecom-image-default ecom-shopify__list-collections-media ecom-shopify__list-collections-media--{{ image_ratio }} ecom-shopify__list-collections-media--hover-effect ecom-shopify__list-collections-overflow-hidden"
+ {% if image_ratio == 'adapt' %}style="padding-bottom: {{ 1 | divided_by: collection_image.aspect_ratio | times: 100 }}%;"{% endif %}>
+ <img srcset="{%- if collection_image.width >= 165 -%}{{collection_image| img_url: '165x' }} 165w,{%- endif -%}
+ {%- if collection_image.width >= 360 -%}{{ collection_image | img_url: '360x' }} 360w,{%- endif -%}
+ {%- if collection_image.width >= 535 -%}{{ collection_image | img_url: '535x' }} 535w,{%- endif -%}
+ {%- if collection_image.width >= 720 -%}{{ collection_image | img_url: '720x' }} 720w,{%- endif -%}
+ {%- if collection_image.width >= 940 -%}{{ collection_image | img_url: '940x' }} 940w,{%- endif -%}
+ {%- if collection_image.width >= 1070 -%}{{ collection_image | img_url: '1070x' }} 1070w{%- endif -%}"
+ src="{{ collection_image | img_url: '533x' }}"
+ sizes="(min-width: 1100px) 358px, (min-width: 750px) calc((100vw - 130px) / 3), calc(100vw - 30px)"
+ alt="{{ collection.title | escape }}"
+ height="{{collection_image.height }}"
+ width="{{ collection_image.width }}"
+ loading="lazy"
+ >
+ </div>
+ </div>
+ <div class="ecom-shopify__collection-card-title">
+ <h2 class="ecom-shopify__collection-heading-title">{{- collection_item.title -}}</h2> 
+ 
+ </div>
+ 
+ {%- else -%}
+ <div class="ecom-shopify__collection-overlay-card"></div>
+ <div class="ecom-shopify__collection-card__text-spacing">
+ <div class="ecom-shopify__collection-card-title">
+ 
+ <h2 class="ecom-shopify__collection-heading-title">
+ {{- collection_item.title -}}
+ </h2>
+ 
+ 
+ </div>
+ 
+ </div>
+ {%- endif -%}
+ </div>
+ </a>
+ </li>
+ {%- endfor -%}
+ </ul>
+ 
+ {%- if paginate.pages > 1 -%}
+ <nav role="navigation">
+ <ol class="ecom-collection__pagination-navigation">
+ {%- if paginate.previous -%}
+ <li class="ecom-prev">
+ <a class="ecom-paginate-action" href="{{ paginate.previous.url }}">
+ 
+ {{ 'sections.ecom-untitled-list-collections.prev_page_4i6kd5q6eqf_html' | t }}
+ </a>
+ </li>
+ {%- else -%}
+ <li class="ecom-prev ecom-paginate-action ecom-disabled">
+ 
+ {{ 'sections.ecom-untitled-list-collections.prev_page_4i6kd5q6eqf_html' | t }}
+ </li>
+ {%- endif -%}
+ {%- for part in paginate.parts -%}
+ {%- if part.is_link -%}
+ <li class="ecom-pagination-item">
+ <a href="{{ part.url }}" title="{{ part.title }}">
+ {{ part.title }}
+ </a>
+ </li>
+ {%- else -%}
+ {%- if part.title == paginate.current_page -%}
+ <li class="ecom-pagination-item ecom-button-active" aria-current="page">
+ {{ part.title }}
+ </li>
+ {%- else -%}
+ <li class="ecom-pagination-item">
+ {{ part.title }}
+ </li>
+ {%- endif -%}
+ {%- endif -%}
+ {%- endfor -%}
+ {%- if paginate.next -%}
+ <li class="ecom-next" >
+ <a class="ecom-paginate-action" href="{{ paginate.next.url }}">
+ {{ 'sections.ecom-untitled-list-collections.next_page_4i6kd5q6eqf_html' | t }}
+ 
+ </a>
+ </li>
+ {%- else -%}
+ <li class="ecom-next ecom-paginate-action ecom-collection__pagination--disabled">
+ {{ 'sections.ecom-untitled-list-collections.next_page_4i6kd5q6eqf_html' | t }}
+ 
+ </li>
+ {%- endif -%}
+ </ol>
+ </nav>
+ {%- endif -%}
+ {% endpaginate%}
+ </div></div></div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div></section>
+</div></div>
+{% schema %}
+{
+ "name": "Untitled",
+ "locales": {
+ "en": {
+ "prev_page_4i6kd5q6eqf_html": "Prev",
+ "next_page_4i6kd5q6eqf_html": "Next",
+ "headingtext_cnkmr8jfyu9_html": "Shop our sparkling cocktails<br>",
+ "textcontent_h24le7ykyou_html": "All of the delicious flavors of a craft cocktail with none of the alcohol. Our sparklers can be enjoyed chilled straight from the can or served over ice with the garnish of your choice.Each soft cocktail is infused with real juices and natural ingredients.&nbsp;<div><div>Relax with our new microdosed 3mg THC + 6mg CBD or with our 11mg CBD beverages. It\u2019s the classic cocktail, reimagined.\n\n<\/div><\/div>"
+ }
+ },
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop\/builder?page=list-collections&id=646cd899aca99bfcab084d56&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}

@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-find-us-here-page": {
+      "type": "ecom-find-us-here-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-find-us-here-page"
+  ]
+}

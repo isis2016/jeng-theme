@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-standard-contact-page": {
+      "type": "ecom-standard-contact-page-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-standard-contact-page"
+  ]
+}

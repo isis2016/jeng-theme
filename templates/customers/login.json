@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-login",
+      "custom_css": [
+        "h1 {font-family: \"Gotham-Bold\";}",
+        ".field__input,.select__select,.customer .field input,.customer select {font-family: \"gotham-bold\";}",
+        ".login .field + a {font-family: \"gotham-light\";}",
+        ".login a {font-family: \"gotham-light\";}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_rEGnW9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BemkQA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need to Cancel or Change Your Subscription?",
+            "heading_size": "h2"
+          }
+        },
+        "text_atVUmA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have subscribed to a Jeng product but are unable to login, please go here: <a href=\"https:\/\/sipjeng.com\/pages\/manage-subscriptions\" title=\"https:\/\/sipjeng.com\/pages\/manage-subscriptions\">sipjeng.com\/pages\/manage-subscriptions<\/a><\/p><p>If you need any assistance, please reach out to <a href=\"mailto:hello@sipjeng.com\" title=\"mailto:hello@sipjeng.com\">hello@sipjeng.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BemkQA",
+        "text_atVUmA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_rEGnW9"
+  ]
+}

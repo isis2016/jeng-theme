@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-wholesale-page": {
+      "type": "ecom-wholesale-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-wholesale-page"
+  ]
+}

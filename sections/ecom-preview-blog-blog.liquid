@@ -1,0 +1,295 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper-bundle-v9.min.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.5" /><noscript><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper-bundle-v9.min.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.5" /></noscript><script type="text/javascript" asyc="async" id="ecom-vendors-slider_js" src="https://cdn.ecomposer.app/vendors/js/ecom-swiper-bundle-v9.min.js?ver=2.0" ></script>
+{%- assign headless = true -%}{%- render "ecom_theme_helper" -%}{%capture section_id %}ecom-preview-blog-blog{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-preview-template-blog.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-preview-template-blog.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="preview-template-blog";
+ window.EComposer.TEMPLATE = {"template_id":"preview-template-blog","title":"Blog 3","type":"blog","slug":"ecom-preview-blog","plan_id":3};
+ </script>
+<div class="ecom-builder" id="ecom-preview-blog"><div class="ecom-sections" data-section-id="{{section.id}}">
+ {%- capture blog_handle -%}blog-3-the-latest{%- endcapture-%}
+ {% assign blog_handle = blog_handle | strip %}
+ {%- if request.page_type != 'blog' and blog_handle != blank -%}
+ {%- assign blog = blogs[blog_handle]-%}
+ {%- endif -%}
+ <section class="ecom-row ecom-core ecom-section ecom-i6nshh8pbc" data-id="ecom-i6nshh8pbc" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-02gouuri"><div class="core__column--wrapper"><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-oki3pzb000c" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-pe7ux8h4r9" data-id="ecom-pe7ux8h4r9" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-i5n7ojez62"><div class="core__column--wrapper"><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block ecom-i995nh7dor7" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading">{{ 'sections.ecom-preview-blog-blog.headingtext_i995nh7dor7_html' | t }}</h3></div></div><div class="ecom-block ecom-core core__block ecom-fo4492qjip" data-core-is="block"><div class="ecom-element ecom-base ecom-base__breadcrumbs--wrapper" deep="2">
+ {%- if EComBuilderMode -%}
+ {% capture page_type %}blog{% endcapture %}
+ {%- else -%}
+ {%- assign page_type = request.page_type %}
+ {%- endif %}
+ {%- capture icon_parent -%}
+ 
+ {%- endcapture -%}
+ {%- capture icon_breadcrumbs -%}
+ <span class="ecom-base__breadcrumbs--icon ecom-flex">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="currentColor"><path d="M312.2 2.281c-7.469-4.484-17.34-2.125-21.94 5.484l-288 480c-4.562 7.578-2.094 17.41 5.5 21.95C10.34 511.3 13.19 512 16 512c5.406 0 10.72-2.766 13.72-7.766l288-480C322.3 16.66 319.8 6.828 312.2 2.281z"></path></svg>
+ </span>
+ 
+ {%- endcapture -%}
+ {%- unless page_type == 'index' or page_type == 'list-collections' or page_type == '404' -%}
+ <nav class="ecom-base__breadcrumbs ecom-flex" role="navigation" aria-label="breadcrumbs">
+ <div class="ecom-base__breadcrumbs__list ecom-flex">
+ {{ icon_parent }}<a class="ecom-base__breadcrumbs__link" href="/">{{ 'sections.ecom-preview-blog-blog.breadcrumbs_home_fo4492qjip_html' | t }}</a>
+ {%- case page_type -%}
+ {%- when 'page' -%}
+ {{ icon_breadcrumbs }}
+ {%- if EComBuilderMode -%}
+ <a class="ecom-base__breadcrumbs__link" href="#" aria-current="page">Untitled</a>
+ {%- else -%}
+ <a class="ecom-base__breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+ {%- endif -%}
+ {%- when 'cart' -%}
+ {{ icon_breadcrumbs }}
+ <a class="ecom-base__breadcrumbs__link" href="{{ routes.cart_url }}" aria-current="cart"></a>
+ {%- when 'product' -%}
+ {%- if collection.url -%}
+ {{ icon_breadcrumbs }}{{ collection.title | link_to: collection.url }}
+ {%- endif -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+ {%- when 'collection' and collection.handle -%}
+ {%- if current_tags -%}
+ {{ icon_breadcrumbs }}{{ collection.title | link_to: collection.url }}
+ {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
+ {%- else -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+ {%- endif -%}
+ {%- when 'blog' -%}
+ {%- if current_tags -%}
+ {{ icon_breadcrumbs }}{{ blog.title | link_to: blog.url }}
+ {%- capture tag_url -%}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " }}</a>
+ {%- else -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+ {%- endif -%}
+ {%- when 'article' -%}
+ {{ icon_breadcrumbs }}{{ blog.title | link_to: blog.url }}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+ {%- else -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+ {%- endcase -%}
+ </div>
+ </nav>
+ {%- endunless -%}{%- assign page_type = request.page_type %}
+ {%- if page_type == 'index' -%}
+ {%- if EComBuilderMode -%}
+ <a class="ecom-base__breadcrumbs__link" href="#" aria-current="index">Home</a>
+ {%- else -%}
+ <a class="ecom-base__breadcrumbs__link" href="/" aria-current="index">Home</a>
+ {%- endif -%}
+ {%- endif -%}
+ </div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-block ecom-core core__block elmspace ecom-himd5aovus6" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-nqogki6254f" data-id="ecom-nqogki6254f" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core core__column--first ecom-zvjonzvhxka"><div class="core__column--wrapper"><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-5uh6ca0q5nm" data-core-is="block"><div class="ecom__element element__spacer ecom-element" deep="2"><div class="ecom__element-spacer"><div class="ecom__element-spacing"></div></div></div></div><div class="ecom-block ecom-core core__block ecom-xqdrr0pp5a" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="2"><div class="text-content ecom-html has-drop-cap-view-default">{{ 'sections.ecom-preview-blog-blog.textcontent_xqdrr0pp5a_html' | t }}</div></div></div><div class="ecom-block ecom-core core__block ecom-39j55v93ory" data-core-is="block"><div class="ecom__element ecom-element element__divi" deep="2"><div class="ecom__element-divi"><div class="divi-line divi-style" style="display: block;"></div><div class="divi-cont" style="--divider-width: 100%; --divider-width-tablet: 100%; display: none;"><div class="divi-cont-before divi-style" style="display: block;"></div><div class="divi-cont-after divi-style" style="display: block;"></div></div></div></div></div><div class="ecom-block ecom-core core__block elmspace ecom-sepr66qgf8c" data-core-is="block"><div class="ecom-element ecom-shopify-elements ecom-shopify__blog" deep="2"><div class="ecom-shopify__blog-wrapper"><div class="ecom-shopify__blog-container ecom-swiper-container" data-items-on-row="4" data-option-swiper="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:1},&quot;768&quot;:{&quot;slidesPerView&quot;:2},&quot;1025&quot;:{&quot;slidesPerView&quot;:2,&quot;spaceBetween&quot;:30}},&quot;autoplay&quot;:{&quot;enabled&quot;:false,&quot;delay&quot;:0,&quot;pauseOnMouseEnter&quot;:false,&quot;disableOnInteraction&quot;:false},&quot;speed&quot;:500,&quot;effect&quot;:&quot;slide&quot;,&quot;grabCursor&quot;:true,&quot;slideActiveClass&quot;:&quot;ecom-box-active&quot;,&quot;centeredSlides&quot;:false,&quot;watchOverflow&quot;:true,&quot;autoHeight&quot;:true,&quot;cubeEffect&quot;:{&quot;slideShadows&quot;:true,&quot;shadowOffset&quot;:20},&quot;creativeEffect&quot;:{},&quot;fadeEffect&quot;:{&quot;crossFade&quot;:true},&quot;pagination&quot;:{&quot;el&quot;:&quot;.ecom-swiper-pagination&quot;,&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true},&quot;navigation&quot;:{&quot;nextEl&quot;:&quot;.ecom-swiper-button-next&quot;,&quot;prevEl&quot;:&quot;.ecom-swiper-button-prev&quot;}}">
+ {% assign tmp_block = blog %}
+ {%- capture blog_handle -%}blog-3-recent-posts{%- endcapture-%}
+ {%- if blog_handle -%}
+ {%- assign blog = blogs[blog_handle]-%}
+ {%- endif -%}
+ {% if blog != null %}
+ {%- capture limit -%}5{%-endcapture-%}
+ {% assign limit = limit | plus: 0 %}
+ {% assign tmp_article = article %}
+ 
+ {% assign count = 1 %}
+ {%- paginate blog.articles by limit -%}
+ <div class="ecom-swiper-wrapper ecom-shopify__blog--posts" style="">
+ {% for article in blog.articles %}
+ {% if count > limit %}{% break%}{% endif %}
+ {% assign count = count | plus: 1%}
+ 
+ <div class="ecom-shopify__blog--post ecom-swiper-slide">
+ 
+ 
+ <div class="ecom-shopify__blog--post-thumbnail--img">
+ <div class="ecom-shopify__blog--post-thumbnail ecom-image-align {% if article.image == blank %} ecom-shopify__blog--post-no-thumbnail{% endif %}">
+ {%- if article.image -%}
+ {%- liquid
+ assign featured_media_aspect_ratio = article.featured_media.aspect_ratio
+ if article.featured_media.aspect_ratio == nil
+ assign featured_media_aspect_ratio = 1
+ endif
+ -%}
+ <a style="text-decoration:none" href="{{article.url }}" class="ecom-shopify__blog--post-link ecom-image-default" data-blog-handle="{{article.handle}}">
+ <img srcset="
+ {%- if article.image.src.width >= 165 -%}{{ article.image.src | img_url: '165x' }} 165w,{%- endif -%}
+ {%- if article.image.src.width >= 360 -%}{{ article.image.src | img_url: '360x' }} 360w,{%- endif -%}
+ {%- if article.image.src.width >= 533 -%}{{ article.image.src | img_url: '533x' }} 533w,{%- endif -%}
+ {%- if article.image.src.width >= 720 -%}{{ article.image.src | img_url: '720x' }} 720w,{%- endif -%}
+ {%- if article.image.src.width >= 940 -%}{{ article.image.src | img_url: '940x' }} 940w,{%- endif -%}
+ {%- if article.image.src.width >= 1066 -%}{{ article.image.src | img_url: '1066x' }} 1066w{%- endif -%}"
+ src="{{ article.image.src | img_url: '533x' }}"
+ sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+ alt="{{ article.image.src.alt | escape }}"
+ width="{{ article.image.width }}"
+ height="{{ article.image.height }}"
+ loading="lazy"
+ >
+ </a>
+ {%- endif -%}
+ </div>
+ </div>
+ <a href="{{article.url }}" class="ecom-shopify__blog--post-link" data-blog-handle="{{article.handle}}"><h2 class="ecom-shopify__blog--post-title">{{article.title}}</h2></a>
+ <div class="ecom-shopify__blog--post-excerpt">
+ {{ article.excerpt_or_content | strip_html | escape | truncatewords: 12}}
+ </div>
+ 
+ <div class="ecom-shopify__blog--post-group-4 ecom-flex ecom-al_center undefined">
+ <div class="ecom-shopify__blog--post-author ecom-shopify__blog--post-informations">
+ {% assign article_author = article.author %}
+ 
+ 
+ 
+ 
+ {%- if article.user.email -%}
+ <div class="ecom-shopify__blog--post-informations-author-avatar">
+ <div class="ecom-shopify__blog--post-informations-author-avatar">
+ <div class="ecom-image-default">
+ <img src="https://www.gravatar.com/avatar/{{ article.user.email | downcase | md5 }}" alt="{{ article.author }}">
+ </div>
+ </div>
+ </div>
+ {%- endif -%}
+ 
+ 
+ {{ 'sections.ecom-preview-blog-blog.post_by_author_sepr66qgf8c_html' | t: article_author:article_author }}
+ </div>
+ <div class="ecom-shopify__blog--post-published-at ecom-shopify__blog--post-informations">
+ {% assign published_at = article.published_at | time_tag: format: 'abbreviated_date' %}
+ 
+ <span class="ecom-shopify__blog--post-informations-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M280 248.7L339.1 338.7C347.3 349.7 344.3 364.6 333.3 371.1C322.3 379.3 307.4 376.3 300 365.3L236 269.3C233.4 265.4 232 260.7 232 256V120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120L280 248.7zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"></path></svg></span>
+ 
+ <span>{{ 'sections.ecom-preview-blog-blog.post_published_at_sepr66qgf8c_html' | t: published_at:published_at }}</span>
+ </div>
+ </div>
+ 
+ <div class="ecom-shopify__blog--post-comments_count ecom-shopify__blog--post-informations">
+ {% if article.comments_enabled? %}
+ 
+ <span class="ecom-shopify__blog--post-informations-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><path d="M 3 5 L 3 23 L 8 23 L 8 28.078125 L 14.351563 23 L 29 23 L 29 5 Z M 5 7 L 27 7 L 27 21 L 13.648438 21 L 10 23.917969 L 10 21 L 5 21 Z"></path></svg></span>
+ 
+ {% if article.comments_count == 1%}
+ <span>
+ {{ 'sections.ecom-preview-blog-blog.comment_count_text_sepr66qgf8c_html' | t: comment_count:article.comments_count }}
+ </span>
+ {% else %}
+ <span>
+ {{ 'sections.ecom-preview-blog-blog.comments_count_text_sepr66qgf8c_html' | t: comments_count:article.comments_count }}
+ </span>
+ {% endif %}
+ {% endif %}
+ </div>
+ <div class="ecom-shopify__blog--post-category">
+ <a href="{{blog.url}}" alt="{{blog.title}}">{{blog.title}}</a>
+ </div>
+ 
+ 
+ </div>
+ {% endfor %}
+ </div>
+ 
+ {%- endpaginate -%}
+ {% else %}
+ <div>No posts yet!</div>
+ {% endif %}
+ {% assign blog = tmp_block %}
+ {% assign article = tmp_article %}
+ </div><div class="ecom-swiper-navigation" data-navigator-type="classic"><div class="ecom-flex-center"><button class="ecom-swiper-button ecom-swiper-button-prev" style="display: none;"><svg xmlns="http: //www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button><div class="ecom-swiper-pagination" style="display: none;"></div><button class="ecom-swiper-button ecom-swiper-button-next" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button></div></div><div class="ecom-collection__product-loading ecom-dn"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="margin: auto; background: none; display: block; shape-rendering: auto;"><path d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50" fill="#0a0a0a" stroke="none"><animateTransform attributeName="transform" type="rotate" dur="0.5434782608695652s" repeatCount="indefinite" keyTimes="0;1" values="0 50 51;360 50 51"></animateTransform></path></svg></div></div></div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div><div class="ecom-column ecom-core core__column--last ecom-8n690a5p62v"><div class="core__column--wrapper"><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-lmn7t6idg6a" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-a3nath9tqr8" data-id="ecom-a3nath9tqr8" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-pxcszwwttx"><div class="core__column--wrapper"><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block ecom-vdpjmb4x52j" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="3"><div class="text-content ecom-html has-drop-cap-view-default">{{ 'sections.ecom-preview-blog-blog.textcontent_vdpjmb4x52j_html' | t }}</div></div></div><div class="ecom-block ecom-core core__block ecom-infpvg86p" data-core-is="block"><div class="ecom__element ecom-element element__divi" deep="3"><div class="ecom__element-divi"><div class="divi-line divi-style" style="display: block;"></div><div class="divi-cont" style="--divider-width: 100px; --divider-width-tablet: 100px; display: none;"><div class="divi-cont-before divi-style" style="display: block;"></div><div class="divi-cont-after divi-style" style="display: block;"></div></div></div></div></div><div class="ecom-block ecom-core core__block elmspace ecom-van2qw8s5i" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="3"><div class="text-content ecom-html has-drop-cap-view-default">{{ 'sections.ecom-preview-blog-blog.textcontent_van2qw8s5i_html' | t }}</div></div></div><div class="ecom-block ecom-core core__block ecom-vmtv06z089" data-core-is="block"><div class="ecom-element ecom-shopify-elements ecom-shopify__newsletter-form" deep="3"><div class="ecom-shopify__newsletter-form-wrapper ecom-w__full"><div class="ecom-shopify__newsletter-form-container"><div>
+ {% form 'customer', action:'/contact', class: 'ecom-shopify__newsletter-form' ,id:'newsletter-form-ecom-vmtv06z089' %}
+ <input type="hidden" name="contact[tags]" value="newsletter" />
+ <div class="ecom-newsletter-form-content">
+ <input
+ id="ECom-NewsletterForm-ecom-vmtv06z089"
+ type="email"
+ name="contact[email]"
+ class="ecom-shopify__newsletter-form-field--input"
+ value="{{ form.email }}"
+ aria-required="true"
+ autocorrect="off"
+ autocapitalize="off"
+ autocomplete="email"
+ {% if form.errors %}
+ autofocus
+ aria-invalid="true"
+ {% endif %}
+ placeholder="Enter your email"
+ required
+ >
+ <button type="submit" class="ecome-shopify__newsletter__button" name="commit">
+ <span> {{ 'sections.ecom-preview-blog-blog.submit_title_vmtv06z089_html' | t }} </span>
+ <span class="ecom-shopify__newsletter__button-icon"> </span>
+ </button>
+ </div>
+ {%- if form.posted_successfully? or EComBuilderMode == true and false -%}
+ <div class="ecom-shopify__newsletter-form-success" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless %}>
+ {{ 'sections.ecom-preview-blog-blog.success_message_vmtv06z089_html' | t }}
+ </div>
+ {%- endif -%}
+ {%- if form.errors or EComBuilderMode == true and false -%}
+ <div class="ecom-shopify__newsletter-form-message">
+ <h2 class="ecom-shopify__newsletter-form-status-error" role="alert" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless %}>
+ {{ 'sections.ecom-preview-blog-blog.error_title_vmtv06z089_html' | t }}
+ </h2>
+ <p class="ecom-shopify__newsletter-form-detail-error">
+ {% if EComBuilderMode %}
+ This is example error text when missing email field
+ {% endif %}
+ {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+ </p>
+ </div>
+ {%- endif -%}
+ <div class="ecom-shopify__newsletter-form-message ecom-dn">
+ <p class="ecom-shopify__newsletter-form-detail-error">
+ {{ 'sections.ecom-preview-blog-blog.error_already_vmtv06z089_html' | t }}
+ </p>
+ </div>
+ {% endform %}
+ </div></div></div></div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div></div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div></div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div></section>
+ 
+</div></div>
+{% schema %}
+{
+ "name": "Blog 3",
+ "locales": {
+ "en": {
+ "headingtext_i995nh7dor7_html": "Our Magazine",
+ "breadcrumbs_home_fo4492qjip_html": "Home",
+ "textcontent_xqdrr0pp5a_html": "Recent Posts",
+ "post_by_author_sepr66qgf8c_html": "{{article_author}}",
+ "post_published_at_sepr66qgf8c_html": "{{published_at}}",
+ "comment_count_text_sepr66qgf8c_html": "{{comment_count}} comment",
+ "comments_count_text_sepr66qgf8c_html": "{{comments_count}} comments",
+ "textcontent_vdpjmb4x52j_html": "Subscribe Us",
+ "textcontent_van2qw8s5i_html": "Subscribe to our newsletter and receive a selection of cool articles every weeks",
+ "submit_title_vmtv06z089_html": "Subscribe",
+ "success_message_vmtv06z089_html": "Subscribed successfully!",
+ "error_title_vmtv06z089_html": "Opps!. An error has occurred",
+ "error_already_vmtv06z089_html": "Email have already subscribed!"
+ }
+ },
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop\/builder?page=blog&id=preview-template-blog&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}

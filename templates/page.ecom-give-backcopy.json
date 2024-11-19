@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-give-backcopy": {
+      "type": "ecom-give-backcopy-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-give-backcopy"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-terms-of-service-2": {
+      "type": "ecom-terms-of-service-2-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-terms-of-service-2"
+  ]
+}

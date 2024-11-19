@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-6499f0eac83dac6fe80b0672": {
+      "type": "ecom-6499f0eac83dac6fe80b0672-blog",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-6499f0eac83dac6fe80b0672"
+  ]
+}

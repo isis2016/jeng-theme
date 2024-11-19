@@ -1,0 +1,12 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-r-page": {
+      "type": "ecom-r-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ecom-r-page"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {text-align: center; font-family: \"Gotham-Bold\";}",
+        ".collection-hero__description {font-family: \"gotham-light\"; text-align: center; max-width: 100%; color:black;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "80\/* Style the product price *\/.product-price {margin-top: 5px; font-size: 14px; font-weight: light;}",
+        " \/* chris Css *\/.card.card--standard.card--media {display: flex; flex-direction: column-reverse;}",
+        ".card__information {display: flex; width: 100%; justify-content: space-between;}",
+        "h3.card__heading {flex-basis: 80%; vertical-align: middle; align-items: center; justify-content: center; display: flex;}",
+        ".card-information {flex-basis: 70%; display: flex; vertical-align: middle; justify-content: flex-end;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}

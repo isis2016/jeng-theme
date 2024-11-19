@@ -1,0 +1,80 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.4" /><noscript><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.4" /></noscript>
+{%capture section_id %}ecom-contact-us-page{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}
+{{'ecom-6473d24f008ea35ab00e5995.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-6473d24f008ea35ab00e5995.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="6473d24f008ea35ab00e5995";
+ window.EComposer.PAGE = {"template_id":"6473d24f008ea35ab00e5995","title":"Contact Us","type":"page","slug":"ecom-contact-us","plan_id":3};
+ </script>
+<div class="ecom-builder" id="ecom-contact-us"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-section__stretched ecom-48rsddzkmaa" data-id="ecom-48rsddzkmaa" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-ss8uczec0aj"><div class="core__column--wrapper"><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-tmg8t8gi61" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="1"><h3 class="ecom__heading">{{ 'sections.ecom-contact-us-page.headingtext_tmg8t8gi61_html' | t }}</h3></div></div><div class="ecom-block ecom-core core__block elmspace ecom-2zfuzuh68o3" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="1"><div class="text-content ecom-html has-drop-cap-view-default">{{ 'sections.ecom-contact-us-page.textcontent_2zfuzuh68o3_html' | t }}</div></div></div><div class="ecom-block ecom-core core__block ecom-fr40g3f4v1d" data-core-is="block"><div class="ecom-element ecom-shopify-elements ecom__form" deep="1"><div class="ecom__form-wrapper"><div class="ecom__form-container">{%- comment-%}<form id="ecom-contact-form-ecom-fr40g3f4v1d" class="ecom__form">{%- endcomment -%}{% form 'contact', class: 'ecom-contact-form', id: 'ecom-contact-form-ecom-fr40g3f4v1d', data-ec-tracking-id: 'undefined' %}<div>
+ {%- if form.posted_successfully? or EComBuilderMode == true -%}
+ <div class="ecom__form-success" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless%}>
+ {{ 'sections.ecom-contact-us-page.success_message_fr40g3f4v1d_html' | t }}
+ </div>
+ {% endif %}
+ {%- if form.errors or EComBuilderMode == true -%}
+ <div class="ecom__form-message">
+ <h2 class="ecom__form-status" role="alert" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless%}>
+ {{ 'sections.ecom-contact-us-page.error_title_fr40g3f4v1d_html' | t }}
+ </h2>
+ </div>
+ <ul class="ecom__form-status-list" role="list">
+ {% for field in form.errors %}
+ <li class="ecom__form-status-error">
+ {% if field == 'form' %}
+ {{ form.errors.messages[field] }}
+ {% else %}
+ {{ form.errors.translated_fields[field] }} - {{ form.errors.messages[field] }}
+ {% endif %}
+ </li>
+ {% endfor %}
+ {% if EComBuilderMode %}
+ <li class="ecom__form-status-error">
+ This is sample text when email invalid
+ </li>
+ {% endif %}
+ </ul>
+ {%- endif -%}
+ </div><div class="ecom__form-fields"><div class="ecom__form-field ecom-html" style="width: calc(50% - 15px);"><label for="contact[undefined]" class="ecom__form-field-label"><span>{{ 'sections.ecom-contact-us-page.NaN_label_fr40g3f4v1d_html' | t }}</span><span class="ecom__form-field-required">* </span></label><input type="text" name="contact[undefined]" class="ecom__form--input ecom__form-text" required="" id="ecom-contact-undefined-0" placeholder="{{ 'sections.ecom-contact-us-page.NaN_placeholder_fr40g3f4v1d_html' | t }}"></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 15px);"><label for="contact[undefined]" class="ecom__form-field-label"><span>{{ 'sections.ecom-contact-us-page.NaN_label_fr40g3f4v1d_html' | t }}</span><span class="ecom__form-field-required">* </span></label><input type="text" name="contact[undefined]" class="ecom__form--input ecom__form-text" required="" id="ecom-contact-undefined-1" placeholder="{{ 'sections.ecom-contact-us-page.NaN_placeholder_fr40g3f4v1d_html' | t }}"></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 15px);"><label for="contact[undefined]" class="ecom__form-field-label"><span>{{ 'sections.ecom-contact-us-page.NaN_label_fr40g3f4v1d_html' | t }}</span><span class="ecom__form-field-required">* </span></label><input type="text" name="contact[undefined]" class="ecom__form--input ecom__form-text" required="" id="ecom-contact-undefined-2" placeholder="{{ 'sections.ecom-contact-us-page.NaN_placeholder_fr40g3f4v1d_html' | t }}"></div><div class="ecom__form-field ecom-html" style="width: 100%;"><label for="contact[undefined]" class="ecom__form-field-label"><span>{{ 'sections.ecom-contact-us-page.NaN_label_fr40g3f4v1d_html' | t }}</span></label><textarea name="contact[undefined]" id="ecom-contact-undefined-3" class="ecom__form-textarea" rows="3" placeholder="{{ 'sections.ecom-contact-us-page.NaN_placeholder_fr40g3f4v1d_html' | t }}"></textarea></div></div><div class="ecom__form-action"><button class="ecom__form-button"><span class="ecom_form-submit--text">{{ 'sections.ecom-contact-us-page.button_title_fr40g3f4v1d_html' | t }}</span></button></div>{% endform %}{%- comment-%}</form>{%- endcomment-%}</div></div></div></div></div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div></div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div></section>
+</div></div>
+{% schema %}
+{
+ "name": "Contact Us",
+ "locales": {
+ "en": {
+ "success_message_fr40g3f4v1d_html": "Thank you for sending your message!",
+ "error_title_fr40g3f4v1d_html": "Your message has failed to send. Please try again.",
+ "headingtext_tmg8t8gi61_html": "Let's talk CBD cocktails, alcohol-free drinks,&nbsp;<div>and all things sober curious<\/div>",
+ "textcontent_2zfuzuh68o3_html": "Good conversations start with alcohol-free hemp-infused cocktails. Follow us on Instagram and Facebook to share your #jengstories and hear more about ours.\nGot a question or just want to chat? We love talking about all things hemp-infused, alcohol-free, and sober curious. Send us an email using the form below.",
+ "NaN_label_fr40g3f4v1d_html": "Your comments",
+ "NaN_placeholder_fr40g3f4v1d_html": "Enter your comments",
+ "button_title_fr40g3f4v1d_html": "submit now"
+ }
+ },
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop\/builder?page=page&id=6473d24f008ea35ab00e5995&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}

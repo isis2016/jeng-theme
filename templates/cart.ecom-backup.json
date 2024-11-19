@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "custom_css": [
+        ".title-wrapper-with-link .title {font-family: gotham-bold, Arial, sans-serif;}",
+        ".title-wrapper-with-link a {font-family: \"Gotham-Light\";}",
+        ".cart-item__name {text-decoration: none; display: block; font-family: gotham-bold, Arial, sans-serif; font-size: 20px;}",
+        ".product-option {font-size: 18px; font-family: \"Gotham-Light\";}",
+        ".price--end {text-align: right; font-family: \"Gotham-Light\";}",
+        ".cart-items thead th {text-transform: capitalize; font-family: \"Gotham-Light\"; font-size: 16px;}",
+        ".quantity__input {font-family: gotham-bold, Arial, sans-serif;}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer"
+  ]
+}

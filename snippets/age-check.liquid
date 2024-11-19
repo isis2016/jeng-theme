@@ -1,0 +1,118 @@
+{% assign enter_date_of_birth = false %}
+
+{% assign age = 21 %}
+
+{% capture adult_header %}
+Are you at least 21?
+{% endcapture %}
+
+<div id='age_prompt' class="prompt-container hide">
+  <div class='prompt-background'></div>
+  <div class="age-check-prompt">
+    <img src="https://cdn.shopify.com/s/files/1/0517/2772/8804/files/Screen_Shot_2022-12-08_at_2.31.30_PM_83955f6d-54ec-4700-8db4-baf062a80471.png">
+    <h1>Are you at least 21 years old?</h1>
+    <div class="button-container">
+      <button id="submit_birthdate" class="button-enter btn styled-submit" onclick="ageCheck()" style="display:inline-block">Yes</button>
+      <button onclick="window.location.href='http://google.com/';" class="button-exit" name="button-exit">No</button>
+    </div>
+  </div>
+</div>
+
+<script>
+
+   function readCookie(name) {
+     var nameEQ = name + "=";
+     var ca = document.cookie.split(';');
+     for(var i=0;i < ca.length;i++) {
+       var c = ca[i];
+       while (c.charAt(0)==' ') c = c.substring(1,c.length);
+       if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+     }
+     return null;
+   };
+
+   var isAnAdult = readCookie('isAnAdult');
+
+   if (!isAnAdult) {
+      document.getElementById('age_prompt').classList.remove('hide');
+   };
+  
+  function ageCheck() {
+        var days = 14; //number of days until they must go through the age checker again.
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+        document.cookie = 'isAnAdult=true;'+expires+"; path=/";
+        location.reload();
+   };
+</script>
+
+<style>
+.prompt-container {
+    position: fixed;
+    z-index:99999999999999999999999999999999999999999999999999999999;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .prompt-container.hide{
+      display:none;
+  }
+.prompt-background {
+    background: url(https://cdn.shopify.com/s/files/1/0517/2772/8804/files/COCKTAILS_JEWELS_59e2ceec-e5ad-4aa4-9c88-02ca2722d08e.jpg);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: block !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.prompt-popup {
+    z-index: 9;
+}
+.age-check-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 350px;
+    background:white;
+    z-index:999;
+}
+.age-check-prompt img {
+    max-width: 100px;
+}
+.age-check-prompt h1 {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Gotham-Light', arial, sans-serif;
+}
+.button-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.button-container button {
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button-enter {
+    background: #45647C;
+    color:white;
+}
+.button-exit {
+    background: unset;
+    color: #45647C;
+}
+  
+</style>
